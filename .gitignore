@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+*.mp4
+/dataSet
+/missedFrames
+/oldVersion/OutputBodyWithMiniscopeWithAddition
+/oldVersion
+/OutputMouseBodyPic*
+/OutputStaticObject*
+/PoseExtract*
+/runs
+/ultralytics-8.2.95
+/YoloTrainData
+*.7z

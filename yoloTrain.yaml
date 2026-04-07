@@ -1,0 +1,5 @@
+train: D:/Unity/PythonFiles/YoloV8/YoloTrainData/images/train
+val: D:/Unity/PythonFiles/YoloV8/YoloTrainData/images/val
+
+nc: 2
+names: ['mouse', 'lickSpout']

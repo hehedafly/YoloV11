@@ -1,0 +1,42 @@
+# Batch Video Trajectory Extraction Config
+
+# Global extraction settings
+config:
+  # Basic extraction settings
+  clip_size: 180
+  pad_mode: edge  # 'constant', 'edge', 'reflect', 'wrap'
+  pad_value: 0
+  output_fps: 50
+  output_suffix: _clip
+  output_codec: mp4v  # 'avc1', 'mp4v', 'XVID', 'MJPG'
+  output_dir: ./output_clips
+
+  # YOLO settings
+  yolo_model_path: ./models/TopViewMiniscopeBodyBestWithAddition.pt
+  yolo_conf: 0.5
+  yolo_fill_max_frames: 100
+
+  # Auto-align settings (use YOLO to detect offset automatically)
+  enable_auto_align: true  # Set to false to use configured offset only
+  auto_align_frames: 20  # Number of frames to check for alignment
+  auto_align_max_offset: 50  # Maximum offset to search (+/-)
+
+  # Preview settings (generate preview images before extraction)
+  enable_preview: true  # Set to true to generate preview images
+  preview_frames: 10  # Number of preview frames to generate
+
+# Video processing tasks
+videos:
+  - video: /path/to/video1.mp4
+    trajectory: /path/to/traj1.txt
+    offset: 0  # Set to 0 to use auto-detected offset, or specify fixed offset
+    # output_name: custom_name1  # Optional: custom output name
+    # enable_auto_align: true  # Optional: override global setting
+    # enable_preview: true  # Optional: override global setting
+
+  - video: /path/to/video2.mp4
+    trajectory: /path/to/traj2.txt
+    offset: 5  # Fixed offset (auto-align will be skipped if non-zero)
+    # output_name: custom_name2
+
+  # Add more videos as needed

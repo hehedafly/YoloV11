@@ -1,0 +1,10 @@
+scene:717.0;554.0;372.0;180.0
+selectAreas:32;0;696;187;104;1
+selectAreas:33;0;962;280;104;1
+selectAreas:34;0;1084;533;104;1
+selectAreas:35;0;991;799;104;1
+selectAreas:36;0;738;921;104;1
+selectAreas:37;0;472;828;104;1
+selectAreas:38;0;350;575;104;1
+selectAreas:39;0;443;309;104;1
+selectAreas:0;0;710;554;78;0

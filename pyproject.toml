@@ -1,0 +1,13 @@
+[project]
+name = "yolov8"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "keyboard>=0.13.5",
+    "pandas>=2.3.3",
+    "pyinstrument>=5.1.1",
+    "pypylon>=4.2.0",
+    "ultralytics>=8.3.236",
+]

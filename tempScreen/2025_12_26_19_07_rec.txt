@@ -1,0 +1,1699 @@
+type	delta time	mode	trial	lickPos	result
+miniscopeRecord	62.14302	0x22	0	480	
+miniscopeRecord	542.1537	0x22	0	0	
+start	612.2479	0x22	0	110	0
+stay	613.4838	0x22	0	-1	562;777
+soundplay	613.4905	0x22	0	6	
+lick	625.4832	0x22	0	0	
+end	625.4849	0x22	0	-1	1
+start	629.0764	0x22	1	20	0
+lick	630.3829	0x22	1	0	leave
+lick	633.5002	0x22	1	0	
+lick	633.7663	0x22	1	0	leave
+lick	652.1993	0x22	1	0	
+lick	653.0327	0x22	1	0	leave
+stay	681.9658	0x22	1	-1	1048;687
+soundplay	681.9663	0x22	1	6	
+lick	685.8188	0x22	1	0	
+end	685.8191	0x22	1	-1	1
+start	689.8266	0x22	2	290	0
+lick	690.3845	0x22	2	0	leave
+stay	694.365	0x22	2	-1	855;157
+soundplay	694.3655	0x22	2	6	
+lick	696.299	0x22	2	0	
+end	696.2992	0x22	2	-1	1
+start	699.1845	0x22	3	110	0
+lick	702.2316	0x22	3	0	leave
+stay	707.4314	0x22	3	-1	669;831
+soundplay	707.4318	0x22	3	6	
+lick	710.1314	0x22	3	0	
+end	710.1317	0x22	3	-1	1
+start	713.7602	0x22	4	20	0
+lick	713.8477	0x22	4	0	leave
+lick	729.7139	0x22	4	0	
+lick	730.6302	0x22	4	0	leave
+stay	749.3137	0x22	4	-1	1057;645
+soundplay	749.3141	0x22	4	6	
+lick	751.6962	0x22	4	0	
+end	751.6964	0x22	4	-1	1
+start	755.6865	0x22	5	200	0
+lick	755.7802	0x22	5	0	leave
+stay	756.9631	0x22	5	-1	485;265
+soundplay	756.9637	0x22	5	6	
+lick	759.0626	0x22	5	0	
+end	759.0629	0x22	5	-1	1
+start	762.7145	0x22	6	110	0
+lick	763.8133	0x22	6	0	leave
+stay	780.8132	0x22	6	-1	610;747
+soundplay	780.814	0x22	6	6	
+lick	785.1131	0x22	6	0	
+end	785.1133	0x22	6	-1	1
+start	787.8829	0x22	7	20	0
+lick	789.3629	0x22	7	0	leave
+stay	790.7672	0x22	7	-1	1088;606
+soundplay	790.7676	0x22	7	6	
+lick	793.0793	0x22	7	0	
+end	793.0795	0x22	7	-1	1
+start	796.4493	0x22	8	200	0
+lick	796.8126	0x22	8	0	leave
+stay	799.3165	0x22	8	-1	452;380
+soundplay	799.3169	0x22	8	6	
+lick	800.9628	0x22	8	0	
+end	800.9633	0x22	8	-1	1
+start	804.3975	0x22	9	290	0
+lick	806.7624	0x22	9	0	leave
+stay	812.2793	0x22	9	-1	859;228
+soundplay	812.2799	0x22	9	6	
+lick	813.6456	0x22	9	0	
+end	813.6459	0x22	9	-1	1
+start	816.2995	0x22	10	290	0
+lick	817.979	0x22	10	0	leave
+lick	825.8491	0x22	10	0	
+lick	826.3951	0x22	10	0	leave
+lick	838.348	0x22	10	0	
+lick	838.761	0x22	10	0	leave
+lick	846.6446	0x22	10	0	
+lick	847.3607	0x22	10	0	leave
+lick	881.944	0x22	10	0	
+lick	883.0104	0x22	10	0	leave
+stay	888.4437	0x22	10	-1	818;205
+soundplay	888.4443	0x22	10	6	
+lick	889.8941	0x22	10	0	
+end	889.8944	0x22	10	-1	1
+start	892.5822	0x22	11	200	0
+lick	897.3771	0x22	11	0	leave
+lick	907.96	0x22	11	0	
+lick	908.6104	0x22	11	0	leave
+lick	918.5592	0x22	11	0	
+lick	918.8928	0x22	11	0	leave
+stay	921.5463	0x22	11	-1	422;419
+soundplay	921.5468	0x22	11	6	
+lick	923.5134	0x22	11	0	
+end	923.5135	0x22	11	-1	1
+start	926.4844	0x22	12	20	0
+lick	927.5303	0x22	12	0	leave
+stay	937.9598	0x22	12	-1	1032;674
+soundplay	937.9603	0x22	12	6	
+lick	940.0266	0x22	12	0	
+end	940.0268	0x22	12	-1	1
+start	943.9137	0x22	13	200	0
+stay	947.1455	0x22	13	-1	476;330
+soundplay	947.1461	0x22	13	6	
+lick	949.1925	0x22	13	0	
+end	949.1927	0x22	13	-1	1
+start	952.5441	0x22	14	290	0
+lick	953.8756	0x22	14	0	leave
+lick	958.845	0x22	14	0	
+lick	959.1749	0x22	14	0	leave
+lick	978.2252	0x22	14	0	
+lick	978.5919	0x22	14	0	leave
+stay	983.8752	0x22	14	-1	850;236
+soundplay	983.8759	0x22	14	6	
+lick	985.1919	0x22	14	0	
+end	985.1921	0x22	14	-1	1
+start	989.2457	0x22	15	200	0
+lick	989.8253	0x22	15	0	leave
+stay	994.0581	0x22	15	-1	439;400
+soundplay	994.0586	0x22	15	6	
+lick	995.5747	0x22	15	0	
+end	995.575	0x22	15	-1	1
+start	998.579	0x22	16	20	0
+lick	1000.258	0x22	16	0	leave
+stay	1000.578	0x22	16	-1	1040;686
+soundplay	1000.579	0x22	16	6	
+lick	1002.746	0x22	16	0	
+end	1002.747	0x22	16	-1	1
+start	1005.348	0x22	17	110	0
+lick	1006.444	0x22	17	0	leave
+stay	1016.774	0x22	17	-1	614;746
+soundplay	1016.775	0x22	17	6	
+lick	1018.34	0x22	17	0	
+end	1018.341	0x22	17	-1	1
+start	1021.485	0x22	18	110	0
+lick	1026.224	0x22	18	0	leave
+lick	1029.674	0x22	18	0	
+lick	1030.291	0x22	18	0	leave
+stay	1060.023	0x22	18	-1	579;785
+soundplay	1060.024	0x22	18	6	
+lick	1061.924	0x22	18	0	
+end	1061.924	0x22	18	-1	1
+start	1064.543	0x22	19	290	0
+lick	1067.573	0x22	19	0	leave
+stay	1080.339	0x22	19	-1	848;222
+soundplay	1080.34	0x22	19	6	
+lick	1081.423	0x22	19	0	
+end	1081.423	0x22	19	-1	1
+miniscopeRecord	1085.518	0x22	20	480	
+start	1085.518	0x22	20	290	0
+lick	1087.756	0x22	20	0	leave
+lick	1092.339	0x22	20	0	
+lick	1092.905	0x22	20	0	leave
+stay	1122.122	0x22	20	-1	874;203
+soundplay	1122.122	0x22	20	6	
+lick	1124.205	0x22	20	0	
+end	1124.205	0x22	20	-1	1
+start	1127.111	0x22	21	110	0
+lick	1129.239	0x22	21	0	leave
+lick	1133.422	0x22	21	0	
+lick	1135.104	0x22	21	0	leave
+stay	1135.972	0x22	21	-1	640;763
+soundplay	1135.972	0x22	21	6	
+lick	1137.375	0x22	21	0	
+end	1137.375	0x22	21	-1	1
+start	1140.789	0x22	22	20	0
+lick	1142.338	0x22	22	0	leave
+stay	1160.653	0x22	22	-1	1074;620
+soundplay	1160.654	0x22	22	6	
+lick	1162.92	0x22	22	0	
+end	1162.92	0x22	22	-1	1
+start	1166.704	0x22	23	200	0
+lick	1168.021	0x22	23	0	leave
+stay	1171.404	0x22	23	-1	471;344
+soundplay	1171.405	0x22	23	6	
+lick	1172.854	0x22	23	0	
+end	1172.854	0x22	23	-1	1
+start	1176.256	0x22	24	200	0
+lick	1177.204	0x22	24	0	leave
+lick	1218.803	0x22	24	0	
+lick	1220.686	0x22	24	0	leave
+stay	1232.386	0x22	24	-1	460;360
+soundplay	1232.387	0x22	24	6	
+lick	1234.589	0x22	24	0	
+end	1234.589	0x22	24	-1	1
+start	1238.175	0x22	25	200	0
+lick	1239.802	0x22	25	0	leave
+lick	1260.702	0x22	25	0	
+lick	1261.752	0x22	25	0	leave
+stay	1276.385	0x22	25	-1	522;340
+soundplay	1276.386	0x22	25	6	
+lick	1278.285	0x22	25	0	
+end	1278.285	0x22	25	-1	1
+start	1282.122	0x22	26	290	0
+lick	1283.004	0x22	26	0	leave
+stay	1309.417	0x22	26	-1	912;201
+soundplay	1309.417	0x22	26	6	
+lick	1311.217	0x22	26	0	
+end	1311.217	0x22	26	-1	1
+start	1314.169	0x22	27	20	0
+lick	1316.184	0x22	27	0	leave
+stay	1324.201	0x22	27	-1	1070;534
+soundplay	1324.201	0x22	27	6	
+lick	1326.389	0x22	27	0	
+end	1326.389	0x22	27	-1	1
+start	1330.436	0x22	28	290	0
+lick	1330.788	0x22	28	0	leave
+stay	1360.467	0x22	28	-1	835;176
+soundplay	1360.467	0x22	28	6	
+lick	1362.517	0x22	28	0	
+end	1362.517	0x22	28	-1	1
+start	1366.45	0x22	29	20	0
+lick	1368.816	0x22	29	0	leave
+stay	1375.887	0x22	29	-1	1049;581
+soundplay	1375.887	0x22	29	6	
+lick	1377.583	0x22	29	0	
+end	1377.583	0x22	29	-1	1
+start	1380.485	0x22	30	20	0
+lick	1382.902	0x22	30	0	leave
+stay	1385.699	0x22	30	-1	1043;567
+soundplay	1385.7	0x22	30	6	
+lick	1387.599	0x22	30	0	
+end	1387.599	0x22	30	-1	1
+start	1390.974	0x22	31	200	0
+lick	1391.965	0x22	31	0	leave
+lick	1399.665	0x22	31	0	
+lick	1399.982	0x22	31	0	leave
+lick	1404.365	0x22	31	0	
+lick	1406.165	0x22	31	0	leave
+stay	1423.532	0x22	31	-1	463;450
+soundplay	1423.532	0x22	31	6	
+lick	1425.181	0x22	31	0	
+end	1425.181	0x22	31	-1	1
+start	1428.365	0x22	32	290	0
+lick	1430.182	0x22	32	0	leave
+stay	1442.898	0x22	32	-1	849;243
+soundplay	1442.899	0x22	32	6	
+lick	1444.181	0x22	32	0	
+end	1444.181	0x22	32	-1	1
+start	1448.268	0x22	33	110	0
+lick	1448.482	0x22	33	0	leave
+stay	1449.331	0x22	33	-1	542;761
+soundplay	1449.331	0x22	33	6	
+lick	1451.663	0x22	33	0	
+end	1451.663	0x22	33	-1	1
+start	1455.164	0x22	34	110	0
+lick	1458.38	0x22	34	0	leave
+stay	1460.881	0x22	34	-1	596;791
+soundplay	1460.881	0x22	34	6	
+lick	1462.914	0x22	34	0	
+end	1462.914	0x22	34	-1	1
+start	1465.919	0x22	35	110	0
+lick	1469.213	0x22	35	0	leave
+stay	1501.679	0x22	35	-1	654;755
+soundplay	1501.68	0x22	35	6	
+lick	1504.113	0x22	35	0	
+end	1504.113	0x22	35	-1	1
+start	1507.947	0x22	36	110	0
+lick	1509.017	0x22	36	0	leave
+stay	1514.716	0x22	36	-1	672;778
+soundplay	1514.717	0x22	36	6	
+lick	1516.996	0x22	36	0	
+end	1516.996	0x22	36	-1	1
+start	1519.797	0x22	37	20	0
+lick	1521.662	0x22	37	0	leave
+stay	1535.499	0x22	37	-1	1082;623
+soundplay	1535.499	0x22	37	6	
+lick	1537.645	0x22	37	0	
+end	1537.645	0x22	37	-1	1
+start	1541.146	0x22	38	110	0
+lick	1541.245	0x22	38	0	leave
+stay	1558.962	0x22	38	-1	594;782
+soundplay	1558.962	0x22	38	6	
+lick	1561.461	0x22	38	0	
+end	1561.462	0x22	38	-1	1
+start	1564.164	0x22	39	290	0
+miniscopeRecord	1565.447	0x22	39	0	
+lick	1566.361	0x22	39	0	leave
+lick	1579.345	0x22	39	0	
+lick	1579.677	0x22	39	0	leave
+stay	1591.114	0x22	39	-1	898;210
+soundplay	1591.115	0x22	39	6	
+lick	1592.681	0x22	39	0	
+end	1592.682	0x22	39	-1	1
+start	1596.083	0x22	40	20	0
+lick	1599.747	0x22	40	0	
+lick	1601.493	0x22	40	0	leave
+stay	1604.411	0x22	40	-1	1076;615
+soundplay	1604.411	0x22	40	6	
+lick	1606.78	0x22	40	0	
+end	1606.78	0x22	40	-1	1
+start	1610.566	0x22	41	110	0
+lick	1610.776	0x22	41	0	leave
+stay	1619.51	0x22	41	-1	637;747
+soundplay	1619.511	0x22	41	6	
+lick	1621.443	0x22	41	0	
+end	1621.443	0x22	41	-1	1
+start	1625.379	0x22	42	200	0
+lick	1625.893	0x22	42	0	leave
+stay	1635.527	0x22	42	-1	422;365
+soundplay	1635.528	0x22	42	6	
+lick	1637.443	0x22	42	0	
+end	1637.444	0x22	42	-1	1
+start	1641.446	0x22	43	200	0
+stay	1659.66	0x22	43	-1	482;322
+soundplay	1659.66	0x22	43	6	
+lick	1661.297	0x22	43	0	
+end	1661.297	0x22	43	-1	1
+start	1664.58	0x22	44	20	0
+lick	1665.259	0x22	44	0	leave
+stay	1667.326	0x22	44	-1	1070;653
+soundplay	1667.326	0x22	44	6	
+lick	1669.496	0x22	44	0	
+end	1669.497	0x22	44	-1	1
+start	1672.715	0x22	45	200	0
+lick	1672.892	0x22	45	0	leave
+stay	1677.676	0x22	45	-1	499;355
+soundplay	1677.676	0x22	45	6	
+lick	1679.525	0x22	45	0	
+end	1679.526	0x22	45	-1	1
+start	1682.481	0x22	46	290	0
+lick	1683.342	0x22	46	0	leave
+lick	1690.096	0x22	46	0	
+lick	1690.642	0x22	46	0	leave
+stay	1691.659	0x22	46	-1	938;187
+soundplay	1691.659	0x22	46	6	
+lick	1693.659	0x22	46	0	
+end	1693.659	0x22	46	-1	1
+start	1697.078	0x22	47	290	0
+stay	1707.025	0x22	47	-1	932;201
+soundplay	1707.025	0x22	47	6	
+lick	1709.025	0x22	47	0	
+end	1709.025	0x22	47	-1	1
+start	1712.477	0x22	48	110	0
+stay	1715.024	0x22	48	-1	586;757
+soundplay	1715.025	0x22	48	6	
+lick	1716.491	0x22	48	0	
+end	1716.492	0x22	48	-1	1
+start	1719.542	0x22	49	290	0
+lick	1720.758	0x22	49	0	leave
+lick	1725.191	0x22	49	0	
+lick	1725.624	0x22	49	0	leave
+stay	1759.09	0x22	49	-1	908;176
+soundplay	1759.091	0x22	49	6	
+lick	1760.957	0x22	49	0	
+end	1760.958	0x22	49	-1	1
+start	1763.63	0x22	50	200	0
+lick	1768.291	0x22	50	0	leave
+stay	1812.373	0x22	50	-1	443;400
+soundplay	1812.373	0x22	50	6	
+lick	1814.039	0x22	50	0	
+end	1814.039	0x22	50	-1	1
+start	1816.647	0x22	51	110	0
+lick	1818.056	0x22	51	0	leave
+stay	1820.656	0x22	51	-1	615;748
+soundplay	1820.656	0x22	51	6	
+lick	1822.422	0x22	51	0	
+end	1822.422	0x22	51	-1	1
+start	1825.556	0x22	52	290	0
+lick	1827.705	0x22	52	0	leave
+stay	1843.138	0x22	52	-1	882;178
+soundplay	1843.139	0x22	52	6	
+lick	1845.038	0x22	52	0	
+end	1845.039	0x22	52	-1	1
+start	1848.795	0x22	53	20	0
+lick	1849.221	0x22	53	0	leave
+stay	1887.671	0x22	53	-1	1036;653
+soundplay	1887.672	0x22	53	6	
+lick	1890.04	0x22	53	0	
+end	1890.04	0x22	53	-1	1
+start	1893.14	0x22	54	20	0
+lick	1893.837	0x22	54	0	leave
+stay	1899.921	0x22	54	-1	1055;562
+soundplay	1899.921	0x22	54	6	
+lick	1902.153	0x22	54	0	
+end	1902.153	0x22	54	-1	1
+start	1905.425	0x22	55	20	0
+lick	1906.421	0x22	55	0	leave
+stay	1912.107	0x22	55	-1	1082;621
+soundplay	1912.107	0x22	55	6	
+lick	1914.603	0x22	55	0	
+end	1914.603	0x22	55	-1	1
+start	1917.311	0x22	56	200	0
+lick	1918.504	0x22	56	0	leave
+lick	1918.504	0x22	56	0	leave
+stay	1927.208	0x22	56	-1	454;367
+soundplay	1927.208	0x22	56	6	
+lick	1928.936	0x22	56	0	
+end	1928.937	0x22	56	-1	1
+start	1931.676	0x22	57	200	0
+lick	1933.953	0x22	57	0	leave
+lick	1941.985	0x22	57	0	
+lick	1942.636	0x22	57	0	leave
+stay	1950.236	0x22	57	-1	511;368
+soundplay	1950.237	0x22	57	6	
+lick	1951.719	0x22	57	0	
+end	1951.719	0x22	57	-1	1
+start	1954.743	0x22	58	110	0
+lick	1955.503	0x22	58	0	leave
+lick	1961.485	0x22	58	0	
+lick	1962.185	0x22	58	0	leave
+stay	1969.023	0x22	58	-1	551;767
+soundplay	1969.023	0x22	58	6	
+lick	1971.121	0x22	58	0	
+end	1971.121	0x22	58	-1	1
+start	1975.01	0x22	59	290	0
+lick	1975.802	0x22	59	0	leave
+stay	1991.452	0x22	59	-1	872;161
+soundplay	1991.453	0x22	59	6	
+lick	1993.689	0x22	59	0	
+end	1993.689	0x22	59	-1	1
+start	1997.522	0x22	60	110	0
+lick	2003.439	0x22	60	0	leave
+lick	2004.234	0x22	60	0	
+lick	2005.055	0x22	60	0	leave
+stay	2006.734	0x22	60	-1	558;780
+soundplay	2006.735	0x22	60	6	
+lick	2008.735	0x22	60	0	
+end	2008.735	0x22	60	-1	1
+start	2011.37	0x22	61	20	0
+stay	2015.388	0x22	61	-1	1034;612
+soundplay	2015.389	0x22	61	6	
+lick	2016.483	0x22	61	0	leave
+lick	2018.435	0x22	61	0	
+end	2018.435	0x22	61	-1	1
+start	2021.672	0x22	62	200	0
+lick	2027.434	0x22	62	0	leave
+lick	2029.604	0x22	62	0	
+lick	2030.684	0x22	62	0	leave
+lick	2033.984	0x22	62	0	
+lick	2037.734	0x22	62	0	leave
+stay	2052.301	0x22	62	-1	434;344
+soundplay	2052.301	0x22	62	6	
+lick	2054.384	0x22	62	0	
+end	2054.384	0x22	62	-1	1
+start	2058.139	0x22	63	110	0
+lick	2059.651	0x22	63	0	leave
+stay	2063.167	0x22	63	-1	561;742
+soundplay	2063.167	0x22	63	6	
+lick	2065.434	0x22	63	0	
+end	2065.434	0x22	63	-1	1
+start	2068.435	0x22	64	290	0
+lick	2069.615	0x22	64	0	leave
+stay	2077.865	0x22	64	-1	896;194
+soundplay	2077.866	0x22	64	6	
+lick	2080.067	0x22	64	0	
+end	2080.067	0x22	64	-1	1
+start	2083.085	0x22	65	20	0
+lick	2083.866	0x22	65	0	leave
+stay	2087.283	0x22	65	-1	1025;552
+soundplay	2087.283	0x22	65	6	
+lick	2088.865	0x22	65	0	
+end	2088.865	0x22	65	-1	1
+start	2091.883	0x22	66	20	0
+lick	2093.415	0x22	66	0	leave
+stay	2107.565	0x22	66	-1	1086;593
+soundplay	2107.566	0x22	66	6	
+lick	2109.682	0x22	66	0	
+end	2109.682	0x22	66	-1	1
+start	2113.354	0x22	67	200	0
+lick	2113.886	0x22	67	0	leave
+stay	2122.965	0x22	67	-1	488;403
+soundplay	2122.965	0x22	67	6	
+lick	2124.365	0x22	67	0	
+end	2124.365	0x22	67	-1	1
+start	2127.052	0x22	68	290	0
+lick	2128.632	0x22	68	0	leave
+stay	2138.281	0x22	68	-1	936;185
+soundplay	2138.282	0x22	68	6	
+lick	2140.998	0x22	68	0	
+end	2140.998	0x22	68	-1	1
+start	2144.104	0x22	69	200	0
+lick	2145.764	0x22	69	0	leave
+stay	2162.031	0x22	69	-1	464;312
+soundplay	2162.031	0x22	69	6	
+lick	2164.064	0x22	69	0	
+end	2164.064	0x22	69	-1	1
+miniscopeRecord	2167.855	0x22	70	480	
+start	2167.855	0x22	70	290	0
+lick	2168.53	0x22	70	0	leave
+stay	2169.531	0x22	70	-1	827;163
+soundplay	2169.532	0x22	70	6	
+lick	2171.681	0x22	70	0	
+end	2171.681	0x22	70	-1	1
+start	2175.066	0x22	71	110	0
+lick	2177.068	0x22	71	0	leave
+stay	2181.514	0x22	71	-1	576;756
+soundplay	2181.514	0x22	71	6	
+lick	2183.214	0x22	71	0	
+end	2183.214	0x22	71	-1	1
+start	2186.883	0x22	72	290	0
+lick	2187.464	0x22	72	0	leave
+stay	2189.963	0x22	72	-1	912;191
+soundplay	2189.964	0x22	72	6	
+lick	2191.863	0x22	72	0	
+end	2191.864	0x22	72	-1	1
+start	2194.852	0x22	73	20	0
+lick	2198.116	0x22	73	0	leave
+lick	2207.713	0x22	73	0	
+lick	2208.262	0x22	73	0	leave
+stay	2225.979	0x22	73	-1	1044;658
+soundplay	2225.98	0x22	73	6	
+lick	2228.179	0x22	73	0	
+end	2228.18	0x22	73	-1	1
+start	2230.969	0x22	74	200	0
+lick	2232.596	0x22	74	0	leave
+stay	2234.846	0x22	74	-1	479;377
+soundplay	2234.847	0x22	74	6	
+lick	2236.246	0x22	74	0	
+end	2236.246	0x22	74	-1	1
+start	2238.898	0x22	75	200	0
+lick	2240.479	0x22	75	0	leave
+lick	2278.795	0x22	75	0	
+lick	2279.845	0x22	75	0	leave
+stay	2286.162	0x22	75	-1	466;339
+soundplay	2286.162	0x22	75	6	
+lick	2287.995	0x22	75	0	
+end	2287.995	0x22	75	-1	1
+start	2291.331	0x22	76	110	0
+lick	2292.645	0x22	76	0	leave
+lick	2328.076	0x22	76	0	
+lick	2328.643	0x22	76	0	leave
+stay	2332.993	0x22	76	-1	601;781
+soundplay	2332.994	0x22	76	6	
+lick	2335.143	0x22	76	0	
+end	2335.144	0x22	76	-1	1
+start	2337.762	0x22	77	20	0
+lick	2338.493	0x22	77	0	leave
+stay	2341.647	0x22	77	-1	1022;687
+soundplay	2341.647	0x22	77	6	
+lick	2343.893	0x22	77	0	
+end	2343.894	0x22	77	-1	1
+start	2347.812	0x22	78	290	0
+lick	2348.343	0x22	78	0	leave
+stay	2356.076	0x22	78	-1	909;174
+soundplay	2356.077	0x22	78	6	
+lick	2357.959	0x22	78	0	
+end	2357.96	0x22	78	-1	1
+start	2360.566	0x22	79	290	0
+lick	2362.76	0x22	79	0	leave
+stay	2393.492	0x22	79	-1	953;218
+soundplay	2393.493	0x22	79	6	
+lick	2395.575	0x22	79	0	
+end	2395.575	0x22	79	-1	1
+start	2398.814	0x22	80	110	0
+lick	2399.729	0x22	80	0	leave
+lick	2402.941	0x22	80	0	
+lick	2403.326	0x22	80	0	leave
+stay	2437.763	0x22	80	-1	557;751
+soundplay	2437.763	0x22	80	6	
+lick	2439.791	0x22	80	0	
+end	2439.791	0x22	80	-1	1
+start	2443.661	0x22	81	20	0
+lick	2443.908	0x22	81	0	leave
+stay	2452.157	0x22	81	-1	1038;649
+soundplay	2452.158	0x22	81	6	
+lick	2454.724	0x22	81	0	
+end	2454.724	0x22	81	-1	1
+start	2458.529	0x22	82	200	0
+lick	2458.756	0x22	82	0	leave
+stay	2461.827	0x22	82	-1	465;377
+soundplay	2461.828	0x22	82	6	
+lick	2464.291	0x22	82	0	
+end	2464.291	0x22	82	-1	1
+start	2468.046	0x22	83	110	0
+lick	2468.29	0x22	83	0	leave
+stay	2483.424	0x22	83	-1	556;749
+soundplay	2483.424	0x22	83	6	
+lick	2485.339	0x22	83	0	
+end	2485.339	0x22	83	-1	1
+start	2488.708	0x22	84	110	0
+lick	2490.823	0x22	84	0	leave
+stay	2501.44	0x22	84	-1	602;790
+soundplay	2501.44	0x22	84	6	
+lick	2503.443	0x22	84	0	
+end	2503.443	0x22	84	-1	1
+start	2506.411	0x22	85	20	0
+lick	2507.906	0x22	85	0	leave
+stay	2513.96	0x22	85	-1	1027;673
+soundplay	2513.96	0x22	85	6	
+lick	2516.273	0x22	85	0	
+end	2516.273	0x22	85	-1	1
+start	2519.01	0x22	86	110	0
+lick	2520.556	0x22	86	0	leave
+stay	2521.606	0x22	86	-1	636;809
+soundplay	2521.607	0x22	86	6	
+lick	2523.806	0x22	86	0	
+end	2523.806	0x22	86	-1	1
+start	2526.993	0x22	87	200	0
+lick	2528.206	0x22	87	0	leave
+stay	2536.138	0x22	87	-1	441;372
+soundplay	2536.139	0x22	87	6	
+lick	2538.572	0x22	87	0	
+end	2538.573	0x22	87	-1	1
+start	2541.517	0x22	88	290	0
+lick	2543.239	0x22	88	0	leave
+stay	2548.359	0x22	88	-1	813;231
+soundplay	2548.36	0x22	88	6	
+lick	2550.238	0x22	88	0	
+end	2550.239	0x22	88	-1	1
+start	2553.598	0x22	89	20	0
+lick	2555.406	0x22	89	0	leave
+stay	2565.222	0x22	89	-1	1015;619
+soundplay	2565.222	0x22	89	6	
+lick	2567.672	0x22	89	0	
+end	2567.672	0x22	89	-1	1
+start	2571.212	0x22	90	110	0
+stay	2575.205	0x22	90	-1	639;806
+soundplay	2575.205	0x22	90	6	
+lick	2577.476	0x22	90	0	
+end	2577.476	0x22	90	-1	1
+start	2580.71	0x22	91	20	0
+lick	2581.604	0x22	91	0	leave
+stay	2586.271	0x22	91	-1	1060;532
+soundplay	2586.272	0x22	91	6	
+lick	2588.038	0x22	91	0	
+end	2588.038	0x22	91	-1	1
+start	2592.058	0x22	92	290	0
+stay	2593.504	0x22	92	-1	904;186
+soundplay	2593.505	0x22	92	6	
+lick	2595.67	0x22	92	0	
+end	2595.67	0x22	92	-1	1
+start	2599.309	0x22	93	200	0
+lick	2599.573	0x22	93	0	leave
+stay	2606.321	0x22	93	-1	455;447
+soundplay	2606.321	0x22	93	6	
+lick	2607.754	0x22	93	0	
+end	2607.754	0x22	93	-1	1
+start	2611.657	0x22	94	290	0
+lick	2612.954	0x22	94	0	leave
+stay	2613.704	0x22	94	-1	812;173
+soundplay	2613.705	0x22	94	6	
+lick	2615.837	0x22	94	0	
+end	2615.837	0x22	94	-1	1
+start	2619.624	0x22	95	200	0
+lick	2620.421	0x22	95	0	leave
+stay	2631.941	0x22	95	-1	435;410
+soundplay	2631.941	0x22	95	6	
+lick	2634.54	0x22	95	0	
+end	2634.54	0x22	95	-1	1
+start	2637.964	0x22	96	200	0
+lick	2638.554	0x22	96	0	leave
+stay	2642.937	0x22	96	-1	476;357
+soundplay	2642.937	0x22	96	6	
+lick	2644.807	0x22	96	0	
+end	2644.807	0x22	96	-1	1
+miniscopeRecord	2647.788	0x22	96	0	
+start	2648.643	0x22	97	110	0
+lick	2650.105	0x22	97	0	leave
+stay	2652.741	0x22	97	-1	663;771
+soundplay	2652.741	0x22	97	6	
+lick	2654.286	0x22	97	0	
+end	2654.286	0x22	97	-1	1
+start	2657.806	0x22	98	290	0
+lick	2659.602	0x22	98	0	leave
+stay	2677.385	0x22	98	-1	883;190
+soundplay	2677.386	0x22	98	6	
+lick	2679.419	0x22	98	0	
+end	2679.419	0x22	98	-1	1
+start	2683.403	0x22	99	290	0
+lick	2683.435	0x22	99	0	leave
+lick	2689.819	0x22	99	0	
+lick	2690.785	0x22	99	0	leave
+stay	2693.336	0x22	99	-1	946;199
+soundplay	2693.336	0x22	99	6	
+lick	2695.735	0x22	99	0	
+end	2695.735	0x22	99	-1	1
+start	2698.991	0x22	100	290	0
+lick	2700.785	0x22	100	0	leave
+stay	2724.034	0x22	100	-1	898;167
+soundplay	2724.034	0x22	100	6	
+lick	2726.251	0x22	100	0	
+end	2726.251	0x22	100	-1	1
+start	2729.092	0x22	101	20	0
+lick	2731.15	0x22	101	0	leave
+stay	2738.201	0x22	101	-1	1060;581
+soundplay	2738.202	0x22	101	6	
+lick	2739.818	0x22	101	0	
+end	2739.818	0x22	101	-1	1
+start	2743.07	0x22	102	200	0
+stay	2758.783	0x22	102	-1	476;310
+soundplay	2758.784	0x22	102	6	
+lick	2760.449	0x22	102	0	
+end	2760.449	0x22	102	-1	1
+start	2763.088	0x22	103	20	0
+lick	2765.101	0x22	103	0	leave
+stay	2768.55	0x22	103	-1	1029;609
+soundplay	2768.551	0x22	103	6	
+lick	2770.65	0x22	103	0	
+end	2770.65	0x22	103	-1	1
+start	2774.305	0x22	104	110	0
+stay	2784.333	0x22	104	-1	576;783
+soundplay	2784.334	0x22	104	6	
+lick	2786.183	0x22	104	0	
+end	2786.184	0x22	104	-1	1
+start	2789.266	0x22	105	110	0
+lick	2790.616	0x22	105	0	leave
+stay	2803.383	0x22	105	-1	611;801
+soundplay	2803.384	0x22	105	6	
+lick	2805.469	0x22	105	0	
+end	2805.469	0x22	105	-1	1
+start	2808.555	0x22	106	200	0
+lick	2810.781	0x22	106	0	leave
+stay	2814.399	0x22	106	-1	442;337
+soundplay	2814.4	0x22	106	6	
+lick	2816.199	0x22	106	0	
+end	2816.199	0x22	106	-1	1
+start	2819.351	0x22	107	20	0
+lick	2820.265	0x22	107	0	leave
+stay	2831.565	0x22	107	-1	1040;581
+soundplay	2831.566	0x22	107	6	
+lick	2833.632	0x22	107	0	
+end	2833.632	0x22	107	-1	1
+start	2836.569	0x22	108	110	0
+lick	2837.214	0x22	108	0	leave
+stay	2846.085	0x22	108	-1	628;746
+soundplay	2846.085	0x22	108	6	
+lick	2847.765	0x22	108	0	
+end	2847.765	0x22	108	-1	1
+start	2850.603	0x22	109	20	0
+lick	2854.381	0x22	109	0	leave
+stay	2872.781	0x22	109	-1	1025;677
+soundplay	2872.781	0x22	109	6	
+lick	2874.814	0x22	109	0	
+end	2874.814	0x22	109	-1	1
+start	2877.65	0x22	110	200	0
+lick	2878.214	0x22	110	0	leave
+stay	2905.83	0x22	110	-1	467;398
+soundplay	2905.831	0x22	110	6	
+lick	2909.08	0x22	110	0	
+end	2909.081	0x22	110	-1	1
+start	2912.865	0x22	111	290	0
+lick	2914.78	0x22	111	0	leave
+lick	2922.23	0x22	111	0	
+lick	2924.28	0x22	111	0	leave
+stay	2934.397	0x22	111	-1	883;203
+soundplay	2934.397	0x22	111	6	
+lick	2936.262	0x22	111	0	
+end	2936.262	0x22	111	-1	1
+start	2939.953	0x22	112	110	0
+lick	2941.45	0x22	112	0	leave
+lick	2953.646	0x22	112	0	
+lick	2955.479	0x22	112	0	leave
+lick	2969.396	0x22	112	0	
+lick	2970.049	0x22	112	0	leave
+stay	2971.895	0x22	112	-1	605;758
+soundplay	2971.896	0x22	112	6	
+lick	2974.165	0x22	112	0	
+end	2974.165	0x22	112	-1	1
+start	2977.435	0x22	113	110	0
+lick	2979.245	0x22	113	0	leave
+stay	2987.162	0x22	113	-1	574;783
+soundplay	2987.162	0x22	113	6	
+lick	2990.262	0x22	113	0	
+end	2990.262	0x22	113	-1	1
+start	2993.597	0x22	114	200	0
+lick	2995.811	0x22	114	0	leave
+stay	3008.244	0x22	114	-1	456;348
+soundplay	3008.245	0x22	114	6	
+lick	3010.348	0x22	114	0	
+end	3010.348	0x22	114	-1	1
+start	3013.047	0x22	115	20	0
+lick	3014.461	0x22	115	0	leave
+stay	3054.177	0x22	115	-1	1044;671
+soundplay	3054.177	0x22	115	6	
+lick	3056.243	0x22	115	0	
+end	3056.243	0x22	115	-1	1
+start	3059.796	0x22	116	200	0
+lick	3061.076	0x22	116	0	leave
+stay	3062.444	0x22	116	-1	482;413
+soundplay	3062.444	0x22	116	6	
+lick	3063.813	0x22	116	0	
+end	3063.813	0x22	116	-1	1
+start	3067.144	0x22	117	290	0
+lick	3068.61	0x22	117	0	leave
+stay	3072.776	0x22	117	-1	934;206
+soundplay	3072.777	0x22	117	6	
+lick	3075.06	0x22	117	0	
+end	3075.06	0x22	117	-1	1
+start	3078.528	0x22	118	290	0
+lick	3079.893	0x22	118	0	leave
+stay	3097.926	0x22	118	-1	915;191
+soundplay	3097.926	0x22	118	6	
+lick	3099.926	0x22	118	0	
+end	3099.926	0x22	118	-1	1
+start	3103.744	0x22	119	20	0
+lick	3103.876	0x22	119	0	leave
+stay	3108.976	0x22	119	-1	1061;548
+soundplay	3108.977	0x22	119	6	
+lick	3111.025	0x22	119	0	
+end	3111.025	0x22	119	-1	1
+miniscopeRecord	3115.114	0x22	120	480	
+start	3115.115	0x22	120	110	0
+lick	3116.441	0x22	120	0	leave
+stay	3118.042	0x22	120	-1	657;737
+soundplay	3118.043	0x22	120	6	
+lick	3119.461	0x22	120	0	
+end	3119.462	0x22	120	-1	1
+start	3123.01	0x22	121	290	0
+lick	3123.125	0x22	121	0	leave
+stay	3130.292	0x22	121	-1	921;204
+soundplay	3130.292	0x22	121	6	
+lick	3132.379	0x22	121	0	
+end	3132.379	0x22	121	-1	1
+start	3135.53	0x22	122	200	0
+lick	3137.041	0x22	122	0	leave
+stay	3162.258	0x22	122	-1	423;374
+soundplay	3162.258	0x22	122	6	
+lick	3164.524	0x22	122	0	
+end	3164.524	0x22	122	-1	1
+start	3168.342	0x22	123	290	0
+lick	3169.478	0x22	123	0	leave
+stay	3181.624	0x22	123	-1	909;202
+soundplay	3181.624	0x22	123	6	
+lick	3183.257	0x22	123	0	
+end	3183.257	0x22	123	-1	1
+start	3186.163	0x22	124	110	0
+lick	3187.491	0x22	124	0	leave
+stay	3190.024	0x22	124	-1	676;767
+soundplay	3190.024	0x22	124	6	
+lick	3192.057	0x22	124	0	
+end	3192.057	0x22	124	-1	1
+start	3195.675	0x22	125	20	0
+stay	3197.357	0x22	125	-1	1030;685
+soundplay	3197.358	0x22	125	6	
+lick	3197.524	0x22	125	0	leave
+lick	3199.506	0x22	125	0	
+end	3199.506	0x22	125	-1	1
+start	3202.208	0x22	126	290	0
+lick	3203.527	0x22	126	0	leave
+stay	3204.374	0x22	126	-1	876;192
+soundplay	3204.374	0x22	126	6	
+lick	3206.672	0x22	126	0	
+end	3206.673	0x22	126	-1	1
+start	3209.276	0x22	127	200	0
+lick	3212.34	0x22	127	0	leave
+stay	3214.373	0x22	127	-1	473;333
+soundplay	3214.374	0x22	127	6	
+lick	3216.305	0x22	127	0	
+end	3216.306	0x22	127	-1	1
+start	3220.108	0x22	128	110	0
+lick	3220.19	0x22	128	0	leave
+stay	3222.873	0x22	128	-1	560;752
+soundplay	3222.874	0x22	128	6	
+lick	3224.806	0x22	128	0	
+end	3224.806	0x22	128	-1	1
+start	3228.343	0x22	129	200	0
+lick	3228.46	0x22	129	0	leave
+lick	3245.223	0x22	129	0	
+lick	3246.772	0x22	129	0	leave
+stay	3253.656	0x22	129	-1	463;346
+soundplay	3253.656	0x22	129	6	
+lick	3255.739	0x22	129	0	
+end	3255.74	0x22	129	-1	1
+start	3258.692	0x22	130	20	0
+lick	3260.872	0x22	130	0	leave
+stay	3263.472	0x22	130	-1	1032;676
+soundplay	3263.473	0x22	130	6	
+lick	3265.405	0x22	130	0	
+end	3265.405	0x22	130	-1	1
+start	3269.23	0x22	131	20	0
+lick	3270.372	0x22	131	0	leave
+stay	3277.155	0x22	131	-1	1050;581
+soundplay	3277.155	0x22	131	6	
+lick	3279.771	0x22	131	0	
+end	3279.771	0x22	131	-1	1
+start	3282.525	0x22	132	110	0
+lick	3283.739	0x22	132	0	leave
+stay	3285.505	0x22	132	-1	600;785
+soundplay	3285.505	0x22	132	6	
+lick	3287.338	0x22	132	0	
+end	3287.338	0x22	132	-1	1
+start	3290.439	0x22	133	200	0
+lick	3292.641	0x22	133	0	leave
+stay	3300.221	0x22	133	-1	495;374
+soundplay	3300.222	0x22	133	6	
+lick	3302.52	0x22	133	0	
+end	3302.521	0x22	133	-1	1
+start	3306.266	0x22	134	290	0
+lick	3308.208	0x22	134	0	leave
+stay	3320.408	0x22	134	-1	897;218
+soundplay	3320.409	0x22	134	6	
+lick	3321.971	0x22	134	0	
+end	3321.971	0x22	134	-1	1
+start	3324.927	0x22	135	200	0
+lick	3327.341	0x22	135	0	leave
+stay	3342.504	0x22	135	-1	437;344
+soundplay	3342.504	0x22	135	6	
+lick	3344.54	0x22	135	0	
+end	3344.54	0x22	135	-1	1
+start	3348.54	0x22	136	200	0
+stay	3352.82	0x22	136	-1	438;355
+soundplay	3352.821	0x22	136	6	
+lick	3355.323	0x22	136	0	
+end	3355.324	0x22	136	-1	1
+start	3358.073	0x22	137	290	0
+lick	3359.603	0x22	137	0	leave
+stay	3392.402	0x22	137	-1	810;211
+soundplay	3392.403	0x22	137	6	
+lick	3393.785	0x22	137	0	
+end	3393.785	0x22	137	-1	1
+start	3397.289	0x22	138	20	0
+lick	3399.389	0x22	138	0	leave
+stay	3399.752	0x22	138	-1	1077;615
+soundplay	3399.753	0x22	138	6	
+lick	3401.885	0x22	138	0	
+end	3401.886	0x22	138	-1	1
+start	3405.37	0x22	139	20	0
+lick	3406.685	0x22	139	0	leave
+lick	3414.435	0x22	139	0	
+lick	3416.018	0x22	139	0	leave
+stay	3418.385	0x22	139	-1	1022;683
+soundplay	3418.385	0x22	139	6	
+lick	3420.419	0x22	139	0	
+end	3420.419	0x22	139	-1	1
+start	3423.781	0x22	140	20	0
+lick	3424.417	0x22	140	0	leave
+stay	3442.638	0x22	140	-1	1031;663
+soundplay	3442.639	0x22	140	6	
+lick	3445.134	0x22	140	0	
+end	3445.134	0x22	140	-1	1
+start	3447.978	0x22	141	110	0
+lick	3449.017	0x22	141	0	leave
+stay	3454.754	0x22	141	-1	559;757
+soundplay	3454.755	0x22	141	6	
+lick	3456.5	0x22	141	0	
+end	3456.5	0x22	141	-1	1
+start	3459.741	0x22	142	290	0
+lick	3461.003	0x22	142	0	leave
+stay	3463.734	0x22	142	-1	906;187
+soundplay	3463.735	0x22	142	6	
+lick	3465.683	0x22	142	0	
+end	3465.684	0x22	142	-1	1
+start	3468.421	0x22	143	110	0
+lick	3470.734	0x22	143	0	leave
+stay	3486.8	0x22	143	-1	559;770
+soundplay	3486.801	0x22	143	6	
+lick	3488.583	0x22	143	0	
+end	3488.583	0x22	143	-1	1
+start	3491.57	0x22	144	20	0
+lick	3493.783	0x22	144	0	leave
+stay	3495.837	0x22	144	-1	1005;605
+soundplay	3495.838	0x22	144	6	
+lick	3497.366	0x22	144	0	
+end	3497.366	0x22	144	-1	1
+start	3501.286	0x22	145	110	0
+stay	3503.166	0x22	145	-1	563;753
+soundplay	3503.166	0x22	145	6	
+lick	3505.066	0x22	145	0	
+end	3505.066	0x22	145	-1	1
+start	3508.503	0x22	146	200	0
+lick	3510.3	0x22	146	0	leave
+stay	3524.733	0x22	146	-1	446;443
+soundplay	3524.734	0x22	146	6	
+lick	3527.099	0x22	146	0	
+end	3527.099	0x22	146	-1	1
+start	3529.818	0x22	147	20	0
+lick	3531.616	0x22	147	0	leave
+lick	3551.032	0x22	147	0	
+lick	3551.432	0x22	147	0	leave
+lick	3560.465	0x22	147	0	
+lick	3561.135	0x22	147	0	leave
+stay	3581.732	0x22	147	-1	1047;690
+soundplay	3581.732	0x22	147	6	
+lick	3584.067	0x22	147	0	
+end	3584.067	0x22	147	-1	1
+start	3587.452	0x22	148	290	0
+lick	3588.714	0x22	148	0	leave
+stay	3591.882	0x22	148	-1	903;217
+soundplay	3591.882	0x22	148	6	
+lick	3593.464	0x22	148	0	
+end	3593.464	0x22	148	-1	1
+miniscopeRecord	3595.035	0x22	148	0	
+start	3596.084	0x22	149	200	0
+lick	3597.613	0x22	149	0	leave
+stay	3605.918	0x22	149	-1	435;451
+soundplay	3605.919	0x22	149	6	
+lick	3608.097	0x22	149	0	
+end	3608.097	0x22	149	-1	1
+start	3611.522	0x22	150	290	0
+lick	3612.18	0x22	150	0	leave
+stay	3620.88	0x22	150	-1	947;229
+soundplay	3620.881	0x22	150	6	
+lick	3622.663	0x22	150	0	
+end	3622.663	0x22	150	-1	1
+start	3625.269	0x22	151	290	0
+lick	3626.696	0x22	151	0	leave
+lick	3648.549	0x22	151	0	
+lick	3649.046	0x22	151	0	leave
+lick	3665.38	0x22	151	0	
+lick	3665.663	0x22	151	0	leave
+stay	3667.963	0x22	151	-1	920;219
+soundplay	3667.964	0x22	151	6	
+lick	3669.713	0x22	151	0	
+end	3669.713	0x22	151	-1	1
+start	3673.771	0x22	152	20	0
+lick	3676.496	0x22	152	0	leave
+lick	3698.578	0x22	152	0	
+lick	3699.545	0x22	152	0	leave
+stay	3702.612	0x22	152	-1	1056;569
+soundplay	3702.613	0x22	152	6	
+lick	3704.345	0x22	152	0	
+end	3704.345	0x22	152	-1	1
+start	3707.034	0x22	153	110	0
+lick	3708.845	0x22	153	0	leave
+lick	3716.744	0x22	153	0	
+lick	3716.915	0x22	153	0	leave
+stay	3721.062	0x22	153	-1	582;783
+soundplay	3721.062	0x22	153	6	
+lick	3722.961	0x22	153	0	
+end	3722.962	0x22	153	-1	1
+start	3726.686	0x22	154	200	0
+lick	3728.778	0x22	154	0	leave
+stay	3734.56	0x22	154	-1	477;419
+soundplay	3734.561	0x22	154	6	
+lick	3736.944	0x22	154	0	
+end	3736.944	0x22	154	-1	1
+start	3739.746	0x22	155	110	0
+lick	3740.861	0x22	155	0	leave
+stay	3741.777	0x22	155	-1	599;795
+soundplay	3741.778	0x22	155	6	
+lick	3743.911	0x22	155	0	
+end	3743.912	0x22	155	-1	1
+start	3747.046	0x22	156	200	0
+lick	3748.044	0x22	156	0	leave
+stay	3752.944	0x22	156	-1	455;327
+soundplay	3752.944	0x22	156	6	
+lick	3754.648	0x22	156	0	
+end	3754.648	0x22	156	-1	1
+start	3757.729	0x22	157	290	0
+lick	3760.01	0x22	157	0	leave
+stay	3760.661	0x22	157	-1	906;203
+soundplay	3760.661	0x22	157	6	
+lick	3762.646	0x22	157	0	
+end	3762.647	0x22	157	-1	1
+start	3766.345	0x22	158	200	0
+lick	3766.56	0x22	158	0	leave
+stay	3770.044	0x22	158	-1	482;310
+soundplay	3770.044	0x22	158	6	
+lick	3771.76	0x22	158	0	
+end	3771.76	0x22	158	-1	1
+start	3774.66	0x22	159	290	0
+lick	3777.077	0x22	159	0	leave
+stay	3789.276	0x22	159	-1	916;211
+soundplay	3789.276	0x22	159	6	
+lick	3791.226	0x22	159	0	
+end	3791.227	0x22	159	-1	1
+start	3793.979	0x22	160	110	0
+lick	3796.625	0x22	160	0	leave
+stay	3797.126	0x22	160	-1	622;785
+soundplay	3797.126	0x22	160	6	
+lick	3799.476	0x22	160	0	
+end	3799.476	0x22	160	-1	1
+start	3802.725	0x22	161	20	0
+lick	3804.492	0x22	161	0	leave
+stay	3824.225	0x22	161	-1	1065;610
+soundplay	3824.226	0x22	161	6	
+lick	3826.691	0x22	161	0	
+end	3826.692	0x22	161	-1	1
+start	3830.131	0x22	162	290	0
+lick	3830.742	0x22	162	0	leave
+stay	3831.426	0x22	162	-1	849;168
+soundplay	3831.426	0x22	162	6	
+lick	3833.524	0x22	162	0	
+end	3833.525	0x22	162	-1	1
+start	3836.977	0x22	163	20	0
+lick	3837.692	0x22	163	0	leave
+stay	3841.292	0x22	163	-1	1020;626
+soundplay	3841.293	0x22	163	6	
+lick	3843.225	0x22	163	0	
+end	3843.225	0x22	163	-1	1
+start	3847.144	0x22	164	20	0
+lick	3848.558	0x22	164	0	leave
+stay	3853.125	0x22	164	-1	1024;557
+soundplay	3853.125	0x22	164	6	
+lick	3857.357	0x22	164	0	
+end	3857.358	0x22	164	-1	1
+start	3860.544	0x22	165	110	0
+lick	3860.892	0x22	165	0	leave
+stay	3863.925	0x22	165	-1	582;791
+soundplay	3863.926	0x22	165	6	
+end	3866.029	0x22	165	-1	1
+miniscopeRecord	3920.479	0x22	165	480	
+miniscopeRecord	4400.499	0x22	165	0	
+miniscopeRecord	4460.48	0x22	165	480	
+miniscopeRecord	4940.917	0x22	165	0	
+19:07:03 mode now: 0x22
+19:07:03 Trigger mode now: 0
+19:07:03 cue sound play mode now: 6
+19:07:03 BackgroundSwitch timing (id: 0) set to 1s
+19:07:03 WaitButton timing (id: 6) set to trial 165
+19:07:04 IPCRefreshButton timing (id: 1) set to 20s
+19:07:04 MSEnable timing (id: 2) set to 1s
+19:07:24 MSStart timing (id: 3) set to 40s
+19:07:25 failed to sync
+19:07:28 time synchronized: offset: 3.39980506896973
+19:07:28 scene info:750;492;371;182.14
+19:08:04 BackgroundSwitch timing (id: 4) set to 490s
+19:08:04 WaterSpoutSingle0 timing (id: 11) set to 120s
+19:08:04 WaterSpoutSingle0 timing (id: 12) set to 360s
+19:08:04 MS on for 480s
+19:16:04 MS off
+19:16:14 StartButton timing (id: 5) set to 60s
+19:17:14 Trial initialized
+19:17:14 Trial 0 started at 0, pos 110,lick pos 0, start type 0
+19:17:14 activate IPC..for extra reward judgement maybe
+19:17:15 Target arrived.
+19:17:27 Trial end  --Interval: 3.487427
+19:17:31 Trial 1 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:18:24 Target arrived.
+19:18:27 Trial end  --Interval: 3.900126
+19:18:31 Trial 2 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 3	0	0	0	0	0	0	0	
+19:18:36 Target arrived.
+19:18:38 Trial end  --Interval: 2.785375
+19:18:41 Trial 3 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:18:49 Target arrived.
+19:18:52 Trial end  --Interval: 3.510076
+19:18:55 Trial 4 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:19:31 Target arrived.
+19:19:33 Trial end  --Interval: 3.898658
+19:19:37 Trial 5 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+19:19:39 Target arrived.
+19:19:41 Trial end  --Interval: 3.574177
+19:19:44 Trial 6 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:20:02 Target arrived.
+19:20:07 Trial end  --Interval: 2.664671
+19:20:09 Trial 7 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:20:12 Target arrived.
+19:20:15 Trial end  --Interval: 3.276748
+19:20:18 Trial 8 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:20:21 Target arrived.
+19:20:23 Trial end  --Interval: 3.350926
+19:20:26 Trial 9 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:20:34 Target arrived.
+19:20:35 Trial end  --Interval: 2.567258
+19:20:38 Trial 10 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:21:50 Target arrived.
+19:21:52 Trial end  --Interval: 2.590322
+19:21:54 Trial 11 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 5	0	0	0	0	0	0	0	
+19:22:23 Target arrived.
+19:22:25 Trial end  --Interval: 2.870453
+19:22:28 Trial 12 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 3	0	0	0	0	0	0	0	
+19:22:40 Target arrived.
+19:22:42 Trial end  --Interval: 3.782574
+19:22:46 Trial 13 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:22:49 Target arrived.
+19:22:51 Trial end  --Interval: 3.256928
+19:22:54 Trial 14 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:23:25 Target arrived.
+19:23:27 Trial end  --Interval: 3.946569
+19:23:31 Trial 15 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 3	0	0	0	0	0	0	0	
+19:23:36 Target arrived.
+19:23:37 Trial end  --Interval: 2.916513
+19:23:40 Trial 16 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:23:42 Target arrived.
+19:23:44 Trial end  --Interval: 2.514006
+19:23:47 Trial 17 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:23:58 Target arrived.
+19:24:00 Trial end  --Interval: 3.046353
+19:24:03 Trial 18 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:24:42 Target arrived.
+19:24:44 Trial end  --Interval: 2.539244
+19:24:46 Trial 19 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+19:25:02 Target arrived.
+19:25:03 Trial end  --Interval: 3.985476
+19:25:07 MS on for 480s
+19:25:07 Trial 20 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:25:44 Target arrived.
+19:25:46 Trial end  --Interval: 2.804854
+19:25:49 Trial 21 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+19:25:58 Target arrived.
+19:25:59 Trial end  --Interval: 3.307222
+19:26:02 Trial 22 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+19:26:22 Target arrived.
+19:26:25 Trial end  --Interval: 3.680927
+19:26:28 Trial 23 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:26:33 Target arrived.
+19:26:34 Trial end  --Interval: 3.31485
+19:26:38 Trial 24 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:27:34 Target arrived.
+19:27:36 Trial end  --Interval: 3.486901
+19:27:40 Trial 25 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+19:28:18 Target arrived.
+19:28:20 Trial end  --Interval: 3.75792
+19:28:24 Trial 26 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+19:28:51 Target arrived.
+19:28:53 Trial end  --Interval: 2.851174
+19:28:56 Trial 27 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:29:06 Target arrived.
+19:29:08 Trial end  --Interval: 3.963739
+19:29:12 Trial 28 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:29:42 Target arrived.
+19:29:44 Trial end  --Interval: 3.828504
+19:29:48 Trial 29 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:29:57 Target arrived.
+19:29:59 Trial end  --Interval: 2.818396
+19:30:02 Trial 30 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:30:07 Target arrived.
+19:30:09 Trial end  --Interval: 3.27842
+19:30:13 Trial 31 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:30:45 Target arrived.
+19:30:47 Trial end  --Interval: 3.08137
+19:30:50 Trial 32 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 3	0	0	0	0	0	0	0	
+19:31:05 Target arrived.
+19:31:06 Trial end  --Interval: 3.986403
+19:31:10 Trial 33 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:31:11 Target arrived.
+19:31:13 Trial end  --Interval: 3.408399
+19:31:17 Trial 34 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:31:22 Target arrived.
+19:31:25 Trial end  --Interval: 2.903915
+19:31:28 Trial 35 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:32:03 Target arrived.
+19:32:06 Trial end  --Interval: 3.724856
+19:32:10 Trial 36 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:32:16 Target arrived.
+19:32:19 Trial end  --Interval: 2.715071
+19:32:21 Trial 37 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:32:37 Target arrived.
+19:32:39 Trial end  --Interval: 3.40464
+19:32:43 Trial 38 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:33:01 Target arrived.
+19:33:03 Trial end  --Interval: 2.600487
+19:33:06 Trial 39 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:33:07 MS off
+19:33:33 Target arrived.
+19:33:34 Trial end  --Interval: 3.305068
+19:33:38 Trial 40 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+19:33:46 Target arrived.
+19:33:48 Trial end  --Interval: 3.68259
+19:33:52 Trial 41 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+19:34:01 Target arrived.
+19:34:03 Trial end  --Interval: 3.85602
+19:34:07 Trial 42 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:34:17 Target arrived.
+19:34:19 Trial end  --Interval: 3.907374
+19:34:23 Trial 43 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+
+19:34:41 Target arrived.
+19:34:43 Trial end  --Interval: 3.181017
+19:34:46 Trial 44 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:34:49 Target arrived.
+19:34:51 Trial end  --Interval: 3.108126
+19:34:54 Trial 45 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:34:59 Target arrived.
+19:35:01 Trial end  --Interval: 2.87477
+19:35:04 Trial 46 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:35:13 Target arrived.
+19:35:15 Trial end  --Interval: 3.331867
+19:35:19 Trial 47 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+19:35:29 Target arrived.
+19:35:31 Trial end  --Interval: 3.370361
+19:35:34 Trial 48 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:35:37 Target arrived.
+19:35:38 Trial end  --Interval: 2.949477
+19:35:41 Trial 49 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:36:21 Target arrived.
+19:36:23 Trial end  --Interval: 2.571075
+19:36:25 Trial 50 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+19:37:14 Target arrived.
+19:37:16 Trial end  --Interval: 2.51221
+19:37:18 Trial 51 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:37:22 Target arrived.
+19:37:24 Trial end  --Interval: 3.043883
+19:37:27 Trial 52 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:37:45 Target arrived.
+19:37:47 Trial end  --Interval: 3.651855
+19:37:50 Trial 53 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:38:29 Target arrived.
+19:38:32 Trial end  --Interval: 3.01181
+19:38:35 Trial 54 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:38:42 Target arrived.
+19:38:44 Trial end  --Interval: 3.176973
+19:38:47 Trial 55 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:38:54 Target arrived.
+19:38:56 Trial end  --Interval: 2.617071
+19:38:59 Trial 56 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:39:09 Target arrived.
+19:39:11 Trial end  --Interval: 2.62928
+19:39:13 Trial 57 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:39:32 Target arrived.
+19:39:33 Trial end  --Interval: 2.930717
+19:39:36 Trial 58 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+19:39:51 Target arrived.
+19:39:53 Trial end  --Interval: 3.787841
+19:39:57 Trial 59 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+19:40:13 Target arrived.
+19:40:15 Trial end  --Interval: 3.757212
+19:40:19 Trial 60 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:40:28 Target arrived.
+19:40:30 Trial end  --Interval: 2.522369
+19:40:33 Trial 61 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+19:40:37 Target arrived.
+19:40:40 Trial end  --Interval: 3.122535
+19:40:43 Trial 62 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:41:14 Target arrived.
+19:41:16 Trial end  --Interval: 3.664747
+19:41:20 Trial 63 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 3	0	0	0	0	0	0	0	
+19:41:25 Target arrived.
+19:41:27 Trial end  --Interval: 2.914205
+19:41:30 Trial 64 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:41:39 Target arrived.
+19:41:42 Trial end  --Interval: 2.931397
+19:41:45 Trial 65 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:41:49 Target arrived.
+19:41:50 Trial end  --Interval: 2.938147
+19:41:53 Trial 66 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:42:09 Target arrived.
+19:42:11 Trial end  --Interval: 3.574967
+19:42:15 Trial 67 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:42:25 Target arrived.
+19:42:26 Trial end  --Interval: 2.585064
+19:42:29 Trial 68 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:42:40 Target arrived.
+19:42:43 Trial end  --Interval: 3.018632
+19:42:46 Trial 69 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:43:04 Target arrived.
+19:43:06 Trial end  --Interval: 3.691271
+19:43:09 MS on for 480s
+19:43:09 Trial 70 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:43:11 Target arrived.
+19:43:13 Trial end  --Interval: 3.281009
+19:43:17 Trial 71 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:43:23 Target arrived.
+19:43:25 Trial end  --Interval: 3.56754
+19:43:28 Trial 72 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:43:32 Target arrived.
+19:43:33 Trial end  --Interval: 2.891376
+19:43:36 Trial 73 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:44:08 Target arrived.
+19:44:10 Trial end  --Interval: 2.68048
+19:44:13 Trial 74 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+19:44:16 Target arrived.
+19:44:18 Trial end  --Interval: 2.569941
+19:44:21 Trial 75 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:45:08 Target arrived.
+19:45:10 Trial end  --Interval: 3.235945
+19:45:13 Trial 76 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+19:45:55 Target arrived.
+19:45:57 Trial end  --Interval: 2.532018
+19:45:59 Trial 77 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+19:46:03 Target arrived.
+19:46:06 Trial end  --Interval: 3.807027
+19:46:09 Trial 78 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:46:18 Target arrived.
+19:46:20 Trial end  --Interval: 2.502432
+19:46:22 Trial 79 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:46:55 Target arrived.
+19:46:57 Trial end  --Interval: 3.125834
+19:47:00 Trial 80 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:47:39 Target arrived.
+19:47:41 Trial end  --Interval: 3.766074
+19:47:45 Trial 81 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+19:47:54 Target arrived.
+19:47:56 Trial end  --Interval: 3.710646
+19:48:00 Trial 82 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:48:03 Target arrived.
+19:48:06 Trial end  --Interval: 3.656587
+19:48:10 Trial 83 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:48:25 Target arrived.
+19:48:27 Trial end  --Interval: 3.264226
+19:48:30 Trial 84 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:48:43 Target arrived.
+19:48:45 Trial end  --Interval: 2.874721
+19:48:48 Trial 85 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:48:56 Target arrived.
+19:48:58 Trial end  --Interval: 2.636425
+19:49:01 Trial 86 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:49:03 Target arrived.
+19:49:05 Trial end  --Interval: 3.081953
+19:49:09 Trial 87 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:49:18 Target arrived.
+19:49:20 Trial end  --Interval: 2.820229
+19:49:23 Trial 88 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:49:30 Target arrived.
+19:49:32 Trial end  --Interval: 3.245641
+19:49:35 Trial 89 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:49:47 Target arrived.
+19:49:49 Trial end  --Interval: 3.426209
+19:49:53 Trial 90 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:49:57 Target arrived.
+19:49:59 Trial end  --Interval: 3.127967
+19:50:02 Trial 91 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+
+19:50:08 Target arrived.
+19:50:10 Trial end  --Interval: 3.924355
+19:50:14 Trial 92 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:50:15 Target arrived.
+19:50:17 Trial end  --Interval: 3.533448
+19:50:21 Trial 93 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:50:28 Target arrived.
+19:50:29 Trial end  --Interval: 3.811156
+19:50:33 Trial 94 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:50:35 Target arrived.
+19:50:37 Trial end  --Interval: 3.684241
+19:50:41 Trial 95 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:50:54 Target arrived.
+19:50:56 Trial end  --Interval: 3.335511
+19:51:00 Trial 96 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:51:05 Target arrived.
+19:51:06 Trial end  --Interval: 3.748325
+19:51:09 MS off
+19:51:10 Trial 97 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:51:14 Target arrived.
+19:51:16 Trial end  --Interval: 3.426958
+19:51:19 Trial 98 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:51:39 Target arrived.
+19:51:41 Trial end  --Interval: 3.896743
+19:51:45 Trial 99 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:51:55 Target arrived.
+19:51:57 Trial end  --Interval: 3.151459
+19:52:01 Trial 100 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+19:52:26 Target arrived.
+19:52:28 Trial end  --Interval: 2.729238
+19:52:31 Trial 101 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:52:40 Target arrived.
+19:52:41 Trial end  --Interval: 3.140442
+19:52:45 Trial 102 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:53:00 Target arrived.
+19:53:02 Trial end  --Interval: 2.535393
+19:53:05 Trial 103 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:53:10 Target arrived.
+19:53:12 Trial end  --Interval: 3.55328
+19:53:16 Trial 104 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:53:26 Target arrived.
+19:53:28 Trial end  --Interval: 2.994392
+19:53:31 Trial 105 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:53:45 Target arrived.
+19:53:47 Trial end  --Interval: 2.986427
+19:53:50 Trial 106 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:53:56 Target arrived.
+19:53:58 Trial end  --Interval: 3.046556
+19:54:01 Trial 107 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:54:13 Target arrived.
+19:54:15 Trial end  --Interval: 2.826215
+19:54:18 Trial 108 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:54:28 Target arrived.
+19:54:29 Trial end  --Interval: 2.741607
+19:54:32 Trial 109 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:54:54 Target arrived.
+19:54:56 Trial end  --Interval: 2.724003
+19:54:59 Trial 110 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:55:27 Target arrived.
+19:55:31 Trial end  --Interval: 3.692371
+19:55:34 Trial 111 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:55:56 Target arrived.
+19:55:58 Trial end  --Interval: 3.585733
+19:56:02 Trial 112 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+19:56:34 Target arrived.
+19:56:36 Trial end  --Interval: 3.168122
+19:56:39 Trial 113 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 3	0	0	0	0	0	0	0	
+19:56:49 Target arrived.
+19:56:52 Trial end  --Interval: 3.259691
+19:56:55 Trial 114 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:57:10 Target arrived.
+19:57:12 Trial end  --Interval: 2.601705
+19:57:15 Trial 115 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:57:56 Target arrived.
+19:57:58 Trial end  --Interval: 3.469436
+19:58:01 Trial 116 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:58:04 Target arrived.
+19:58:05 Trial end  --Interval: 3.239318
+19:58:09 Trial 117 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:58:14 Target arrived.
+19:58:17 Trial end  --Interval: 3.367226
+19:58:20 Trial 118 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:58:40 Target arrived.
+19:58:42 Trial end  --Interval: 3.73626
+19:58:45 Trial 119 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:58:51 Target arrived.
+19:58:53 Trial end  --Interval: 3.982906
+19:58:57 MS on for 480s
+19:58:57 Trial 120 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:59:00 Target arrived.
+19:59:01 Trial end  --Interval: 3.454555
+19:59:05 Trial 121 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:59:12 Target arrived.
+19:59:14 Trial end  --Interval: 3.048006
+19:59:17 Trial 122 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+19:59:44 Target arrived.
+19:59:46 Trial end  --Interval: 3.726675
+19:59:50 Trial 123 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:00:03 Target arrived.
+20:00:05 Trial end  --Interval: 2.803048
+20:00:08 Trial 124 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:00:12 Target arrived.
+20:00:14 Trial end  --Interval: 3.525402
+20:00:17 Trial 125 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:00:19 Target arrived.
+20:00:21 Trial end  --Interval: 2.609449
+20:00:24 Trial 126 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:00:26 Target arrived.
+20:00:28 Trial end  --Interval: 2.50471
+20:00:31 Trial 127 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:00:36 Target arrived.
+20:00:38 Trial end  --Interval: 3.700541
+20:00:42 Trial 128 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:00:44 Target arrived.
+20:00:46 Trial end  --Interval: 3.442285
+20:00:50 Trial 129 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:01:15 Target arrived.
+20:01:17 Trial end  --Interval: 2.857808
+20:01:20 Trial 130 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+20:01:25 Target arrived.
+20:01:27 Trial end  --Interval: 3.739259
+20:01:31 Trial 131 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:01:39 Target arrived.
+20:01:41 Trial end  --Interval: 2.658378
+20:01:44 Trial 132 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:01:47 Target arrived.
+20:01:49 Trial end  --Interval: 3.006485
+20:01:52 Trial 133 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:02:02 Target arrived.
+20:02:04 Trial end  --Interval: 3.646102
+20:02:08 Trial 134 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:02:22 Target arrived.
+20:02:24 Trial end  --Interval: 2.848894
+20:02:27 Trial 135 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:02:44 Target arrived.
+20:02:46 Trial end  --Interval: 3.901716
+20:02:50 Trial 136 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:02:54 Target arrived.
+20:02:57 Trial end  --Interval: 2.642838
+20:03:00 Trial 137 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:03:34 Target arrived.
+20:03:35 Trial end  --Interval: 3.406343
+20:03:39 Trial 138 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:03:41 Target arrived.
+20:03:43 Trial end  --Interval: 3.383073
+20:03:47 Trial 139 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+
+20:04:00 Target arrived.
+20:04:02 Trial end  --Interval: 3.254242
+20:04:05 Trial 140 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+20:04:24 Target arrived.
+20:04:27 Trial end  --Interval: 2.724281
+20:04:30 Trial 141 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:04:36 Target arrived.
+20:04:38 Trial end  --Interval: 3.15814
+20:04:41 Trial 142 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:04:45 Target arrived.
+20:04:47 Trial end  --Interval: 2.652234
+20:04:50 Trial 143 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:05:08 Target arrived.
+20:05:10 Trial end  --Interval: 2.89226
+20:05:13 Trial 144 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:05:17 Target arrived.
+20:05:19 Trial end  --Interval: 3.820551
+20:05:23 Trial 145 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:05:25 Target arrived.
+20:05:27 Trial end  --Interval: 3.358032
+20:05:30 Trial 146 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:05:46 Target arrived.
+20:05:49 Trial end  --Interval: 2.627877
+20:05:51 Trial 147 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:06:43 Target arrived.
+20:06:46 Trial end  --Interval: 3.292986
+20:06:49 Trial 148 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 3	0	0	0	0	0	0	0	
+20:06:53 Target arrived.
+20:06:55 Trial end  --Interval: 2.534124
+20:06:57 MS off
+20:06:58 Trial 149 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:07:08 Target arrived.
+20:07:10 Trial end  --Interval: 3.323156
+20:07:13 Trial 150 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:07:22 Target arrived.
+20:07:24 Trial end  --Interval: 2.504303
+20:07:27 Trial 151 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:08:10 Target arrived.
+20:08:11 Trial end  --Interval: 3.957975
+20:08:15 Trial 152 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 3	0	0	0	0	0	0	0	
+20:08:44 Target arrived.
+20:08:46 Trial end  --Interval: 2.591329
+20:08:49 Trial 153 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+20:09:03 Target arrived.
+20:09:05 Trial end  --Interval: 3.627024
+20:09:08 Trial 154 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 2	0	0	0	0	0	0	0	
+20:09:16 Target arrived.
+20:09:19 Trial end  --Interval: 2.710157
+20:09:21 Trial 155 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:09:23 Target arrived.
+20:09:26 Trial end  --Interval: 3.028623
+20:09:29 Trial 156 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:09:35 Target arrived.
+20:09:36 Trial end  --Interval: 2.980951
+20:09:39 Trial 157 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:09:42 Target arrived.
+20:09:44 Trial end  --Interval: 3.615205
+20:09:48 Trial 158 started at 1, pos 200,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:09:52 Target arrived.
+20:09:53 Trial end  --Interval: 2.81663
+20:09:56 Trial 159 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:10:11 Target arrived.
+20:10:13 Trial end  --Interval: 2.673752
+20:10:16 Trial 160 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:10:19 Target arrived.
+20:10:21 Trial end  --Interval: 3.148184
+20:10:24 Trial 161 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:10:46 Target arrived.
+20:10:48 Trial end  --Interval: 3.324506
+20:10:52 Trial 162 started at 2, pos 290,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:10:53 Target arrived.
+20:10:55 Trial end  --Interval: 3.370053
+20:10:59 Trial 163 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:11:03 Target arrived.
+20:11:05 Trial end  --Interval: 3.831541
+20:11:09 Trial 164 started at 3, pos 20,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:11:15 Target arrived.
+20:11:19 Trial end  --Interval: 3.095044
+20:11:22 Trial 165 started at 0, pos 110,lick pos 0, start type 0, lickCount before: 1	0	0	0	0	0	0	0	
+20:11:22 MSStart timing (id: 7) set to 60s
+20:11:22 pause
+20:11:26 Target arrived.
+20:11:28 Trial end  --Interval: 3.236376
+20:12:22 BackgroundSwitch timing (id: 8) set to 510s
+20:12:22 MSStart timing (id: 9) set to 540s
+20:12:22 WaterSpoutSingle0 timing (id: 13) set to 120s
+20:12:22 WaterSpoutSingle0 timing (id: 14) set to 360s
+20:12:22 MS on for 480s
+20:20:22 MS off
+20:21:22 MessagePost timing (id: 10) set to 480s
+20:21:22 WaterSpoutSingle0 timing (id: 15) set to 120s
+20:21:22 WaterSpoutSingle0 timing (id: 16) set to 360s
+20:21:22 MS on for 480s
+20:29:23 MS off
+
+01:12:45, fps=59
+trial:165     now pos:0    paused
+lick count in this trial: 40, 
+           Success:    Fail:    Total:    Miss:
+LickSpout0: 166          0           166           0
+Total: 166        0
+Accuracy: 100.00%
+interval now: ~1065
+total reward count: 166
+
+default:				others:
+section: displaySettings, key: disableMainDisplay, default value:false			section: displaySettings, key: barWidth, value:100
+section: settings, key: TrackPosMark, default value:			section: displaySettings, key: barHeight, value:1080
+section: settings, key: barShiftLs, default value:0			section: displaySettings, key: displayPixelsLength, value:3840
+section: soundSettings, key: soundLength, default value:0.2			section: displaySettings, key: displayPixelsHeight, value:1080
+section: soundSettings, key: cueVolume, default value:0.5			section: displaySettings, key: displayVerticalPos, value:0.5
+section: settings, key: standingSecInTrigger, default value:0.5			section: displaySettings, key: isRing, value:true
+section: settings, key: standingSecInTrialInDest, default value:0.5			section: displaySettings, key: separate, value:true
+section: settings, key: countAfterLeave, default value:true			section: settings, key: refSegement, value:359
+section: settings, key: extraRewardTimeInSec, default value:0			section: settings, key: start_mode, value:0x22
+section: settings, key: minIgnoreLickInterval, default value:0			section: settings, key: start_method, value:random
+section: soundSettings, key: alarmPlayTimeInterval, default value:1.5			section: settings, key: available_pos, value:20,110,200,290
+section: barMat, key: width, default value:400			section: settings, key: assign_pos, value:(2*30+0*30)*5..
+section: barMat2, key: width, default value:400			section: settings, key: MatStartMethod, value:assign
+section: centerShaftMat, key: isDriftGrating, default value:default			section: settings, key: MatAvailable, value:barMat
+section: centerShaftMat, key: mat, default value:#000000			section: settings, key: MatAssign, value:barMat..
+section: centerShaftMat, key: width, default value:400			section: settings, key: pump_pos, value:0,0,0,0,0,0,0,0
+section: backgroundMat, key: isDriftGrating, default value:default			section: settings, key: lick_pos, value:0,0,0,0,0,0,0,0
+section: backgroundMat, key: mat, default value:#000000			section: settings, key: max_trial, value:1000
+section: backgroundMat, key: width, default value:400			section: settings, key: backgroundLight, value:120
+section: serialSettings, key: compatibleVersion, default value:			section: settings, key: backgroundLightRed, value:60
+							section: settings, key: barDelayTime, value:0
+							section: settings, key: waitFromStart, value:0
+							section: settings, key: barLastingTime, value:0
+							section: settings, key: waitFromLastLick, value:0
+							section: settings, key: triggerModeDelay, value:-1
+							section: settings, key: trialInterval, value:random2.5~4
+							section: settings, key: success_wait_sec, value:random6~9
+							section: settings, key: fail_wait_sec, value:random14~18
+							section: settings, key: trialExpireTime, value:999
+							section: settings, key: triggerMode, value:0
+							section: settings, key: seed, value:-1
+							section: settings, key: barOffset, value:90
+							section: settings, key: destAreaFollow, value:true
+							section: settings, key: OGTriggerMethod, value:[start]{everyTrialEnd:30};[end]{nextTrialInTarget:0}
+							section: settings, key: MSTriggerMethod, value:[start]{certainTrialStart:50*n20+}
+							section: settings, key: stopExtraRewardMethod, value:lick
+							section: settings, key: stopExtraRewardUseTriggerSelectArea, value:0
+							section: settings, key: stopExtraRewardLickDelaySec, value:5
+							section: settings, key: openLogEvent, value:true
+							section: settings, key: logEventPath, value:D:\UnityProject\LogEvent\logevent_Release\LogEvent.exe
+							section: settings, key: openPythonScript, value:true
+							section: settings, key: PythonScriptCommand, value:D:\UnityProject\YOLO>D:/Miniconda/envs/yologpu/python.exe d:/UnityProject/YOLO/YoloPredictBaslerMtp.py -u -l -c basler --ccare -m -r
+							section: settings, key: closePythonScriptBeforeExit, value:true
+							section: soundSettings, key: TrialSoundPlayMode, value:6:6000hz
+							section: defaultOptionSettings, key: InputfieldContent, value:IFTimingSet=>{"type":"dropdown","name":"BackgroundSwitch","hierarchy":0,"time":19.4822464,"timingMethod":"type_dropdown;BackgroundSwitch:sec:1;","Id":0,"parentId":-1,"parentName":"None","value":1.0}||JSON_RECORD||{"type":"button","name":"WaitButton","hierarchy":0,"time":99.28224,"timingMethod":"type_button;WaitButton:trial:165;","Id":6,"parentId":-1,"parentName":"None","value":1.0}||JSON_RECORD||{"type":"button","name":"IPCRefreshButton","hierarchy":1,"time":26.9022446,"timingMethod":"type_button;IPCRefreshButton:sec:20;","Id":1,"parentId":0,"parentName":"BackgroundSwitch","value":1.0}||JSON_RECORD||{"type":"button","name":"MSEnable","hierarchy":1,"time":28.6622448,"timingMethod":"type_button;MSEnable:sec:1;","Id":2,"parentId":0,"parentName":"BackgroundSwitch","value":1.0}||JSON_RECORD||{"type":"button","name":"MSStart","hierarchy":1,"time":124.242241,"timingMethod":"type_button;MSStart:sec:60;","Id":7,"parentId":6,"parentName":"WaitButton","value":1.0}||JSON_RECORD||{"type":"button","name":"MSStart","hierarchy":2,"time":42.9622459,"timingMethod":"type_button;MSStart:sec:40;","Id":3,"parentId":1,"parentName":"IPCRefreshButton","value":1.0}||JSON_RECORD||{"type":"dropdown","name":"BackgroundSwitch","hierarchy":2,"time":147.32225,"timingMethod":"type_dropdown;BackgroundSwitch:sec:510;","Id":8,"parentId":7,"parentName":"MSStart","value":1.0}||JSON_RECORD||{"type":"button","name":"MSStart","hierarchy":2,"time":158.802246,"timingMethod":"type_button;MSStart:sec:540;","Id":9,"parentId":7,"parentName":"MSStart","value":1.0}||JSON_RECORD||{"type":"dropdown","name":"BackgroundSwitch","hierarchy":3,"time":66.56225,"timingMethod":"type_dropdown;BackgroundSwitch:sec:490;","Id":4,"parentId":3,"parentName":"MSStart","value":0.0}||JSON_RECORD||{"type":"button","name":"MessagePost","hierarchy":3,"time":176.822235,"timingMethod":"type_button;MessagePost:sec:480;","Id":10,"parentId":9,"parentName":"MSStart","value":1.0}||JSON_RECORD||{"type":"button","name":"StartButton","hierarchy":4,"time":90.52225,"timingMethod":"type_button;StartButton:sec:60;","Id":5,"parentId":4,"parentName":"BackgroundSwitch","value":1.0}||JSON_RECORD||{"type":"button","name":"WaterSpoutSingle0","hierarchy":3,"time":48.1868362,"timingMethod":"type_button;WaterSpoutSingle0:sec:120;","Id":11,"parentId":3,"parentName":"MSStart","value":1.0}||JSON_RECORD||{"type":"button","name":"WaterSpoutSingle0","hierarchy":3,"time":65.94684,"timingMethod":"type_button;WaterSpoutSingle0:sec:360;","Id":12,"parentId":3,"parentName":"MSStart","value":1.0}||JSON_RECORD||{"type":"button","name":"WaterSpoutSingle0","hierarchy":2,"time":75.52684,"timingMethod":"type_button;WaterSpoutSingle0:sec:120;","Id":13,"parentId":7,"parentName":"MSStart","value":1.0}||JSON_RECORD||{"type":"button","name":"WaterSpoutSingle0","hierarchy":2,"time":84.70684,"timingMethod":"type_button;WaterSpoutSingle0:sec:360;","Id":14,"parentId":7,"parentName":"MSStart","value":1.0}||JSON_RECORD||{"type":"button","name":"WaterSpoutSingle0","hierarchy":3,"time":94.4268341,"timingMethod":"type_button;WaterSpoutSingle0:sec:120;","Id":15,"parentId":9,"parentName":"MSStart","value":1.0}||JSON_RECORD||{"type":"button","name":"WaterSpoutSingle0","hierarchy":3,"time":105.246834,"timingMethod":"type_button;WaterSpoutSingle0:sec:360;","Id":16,"parentId":9,"parentName":"MSStart","value":1.0}
+							section: matSettings, key: matList, value:default,barMat,barMat2,centerShaftMat,backgroundMat
+							section: barMat, key: isDriftGrating, value:true
+							section: barMat, key: isCircleBar, value:false
+							section: barMat, key: speed, value:10
+							section: barMat, key: frequency, value:2
+							section: barMat, key: direction, value:left
+							section: barMat, key: horizontal, value:0
+							section: barMat2, key: isDriftGrating, value:true
+							section: barMat2, key: isCircleBar, value:false
+							section: barMat2, key: speed, value:0.8
+							section: barMat2, key: frequency, value:4
+							section: barMat2, key: direction, value:left
+							section: barMat2, key: horizontal, value:1
+							section: matSettings, key: centerShaft, value:false
+							section: centerShaft, key: centerShaftPos, value:180
+							section: serialSettings, key: blackList, value:COM1
+
+{"userName":null,"mouseInd":null,"startMethod":"random","startMethodStr":"(2*30+0*30)*5..","avaliablePosDict":{"0":20,"1":110,"2":200,"3":290},"matStartMethod":"assign","matAvaliableArray":["barMat"],"lickPosLs":[0,0,0,0,0,0,0,0],"pumpPosLs":[0,0,0,0,0,0,0,0],"trackMarkLs":[0,1,2,3],"barShiftLs":[0,0],"barOffset":90,"destAreaFollow":true,"standingSecInTrigger":0.5,"standingSecInDest":0.5,"maxTrial":1000,"seed":-443675951,"barDelayTime":0.0,"barLastingTime":0.0,"waitFromStart":[0.0,0.0],"waitFromLastLick":0.0,"backgroundLight":120,"backgroundRedMode":60,"trialInterval":[2.5,4.0],"sWaitSec":[6.0,9.0],"fWaitSec":[14.0,18.0],"trialTriggerMode":0,"trialTriggerDelay":[-1.0,-1.0],"trialExpireTime":999.0,"materialsInfo":["name:barMat, isDriftGrating Truewidth          400backgroundLight0.4705882speed          10frequency      2direction      1horizontal     0","name:barMat2, isDriftGrating Truewidth          400backgroundLight0.4705882speed          0.8frequency      4direction      1horizontal     1","name:centerShaftMat, isDriftGrating Falsewidth          400backgroundLight120speed          -1frequency      -1direction      -1horizontal     -1","name:backgroundMat, isDriftGrating Falsewidth          400backgroundLight120speed          -1frequency      -1direction      -1horizontal     -1"],"soundLength":0.2,"cueVolume":0.5,"manuplateMethods":"OG: [start]{everyTrialEnd:30};[end]{nextTrialInTarget:0};\nMS: [start]{certainTrialStart:50*n20+}","countAfterLeave":true,"extraRewardTimeInSec":0.0,"stopExtraRewardMethod":"lick","stopExtraRewardUseTriggerSelectArea":0,"stopExtraRewardLickDelaySec":5.0,"minIgnoreLickInterval":0.0}
+[6]
+[{"Key":1,"name":"4000hz"},{"Key":2,"name":"4000hz"},{"Key":3,"name":"4000hz"},{"Key":4,"name":"4000hz"},{"Key":5,"name":"4000hz"},{"Key":6,"name":"6000hz"},{"Key":7,"name":"4000hz"},{"Key":8,"name":"4000hz"}]

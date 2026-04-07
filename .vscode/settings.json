@@ -1,0 +1,4 @@
+{
+    "git.ignoreLimitWarning": true,
+    "cmake.sourceDirectory": "E:/pythonFiles/YoloV8/ultralytics-8.2.95/examples/YOLOv8-CPP-Inference"
+}
