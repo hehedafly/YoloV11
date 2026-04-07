@@ -141,7 +141,7 @@ YoloTrainData/
 
 ### 3. YoloTrain.py
 
-**功能**: 使用预训练的 YOLO Pose 模型进行训练，评估后导出为 TensorRT 引擎格式。
+**功能**: 使用 YOLO 模型进行训练，评估后导出。
 
 **主要流程**:
 
@@ -150,7 +150,7 @@ model = YOLO(r'models\yolo11n.pt')  # 加载预训练 模型
 model.train(data="yoloTrain.yaml", epochs=_epochs, multi_scale=True, workers=0)
 metrics = model.val()                     # 评估模型
 # 找到最新训练结果中的 best.pt
-model.export(format='engine', dynamic=False, half=False)  # 导出 TensorRT
+#model.export(format='engine', dynamic=False, half=False)  # 可选项，导出 TensorRT
 ```
 
 **训练配置**:
