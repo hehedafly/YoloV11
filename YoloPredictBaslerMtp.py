@@ -49,7 +49,7 @@ videoPath = "01_17_1842outputraw.mp4"
 modelNmae = "models/TopViewDifferentiateLickSpout.pt"
 # modelNmae = "models/TopViewMiniscopeBodyBestWithAddition.engine"
 confidenceCoefficient = 0.7
-CCare:bool = False                                                    if not useargs else args.ccare
+CCare:bool = True                                                    if not useargs else args.ccare
 CType:Literal['unity', 'processing'] = "unity"                   if not useargs else args.type
 CPort = 2333 # for processing
 ConnectRetryInterval = 2
@@ -72,7 +72,7 @@ videoSaveFolder = r"E:\pythonFiles\YoloV8\outputVideo"
 missedFrameSaveFolder = r"E:\pythonFiles\YoloV8\missedFrames"
 multiThread = True                                              if not useargs else args.multiThread 
 Task: Literal['detect', 'track'] = 'detect'
-detectMethod: Literal['yolo', 'blob'] = 'blob'                  if not useargs else args.detectMethod
+detectMethod: Literal['yolo', 'blob'] = 'yolo'                  if not useargs else args.detectMethod
 blobDetector = None
 frame_rate_divider = 1  # 设置帧率除数
 missed_frame_rate_divider = 10
@@ -173,7 +173,7 @@ else:
         camera = cv2.VideoCapture(0)
         # mediaNamePure = "camera" + datetime.datetime.now().strftime("%m_%d_%H%M")
     else:
-        print("wrong camera type")
+        print(f"wrong camera type:{CameraType}")
         exit()
 
 timestr = datetime.datetime.now().strftime("%m_%d_%H%M")
@@ -226,7 +226,7 @@ class FrameGrabber(threading.Thread):
             camera = cv2.VideoCapture(0)
 
         else:
-            print("wrong camera type")
+            print(f"wrong camera type:{CameraType}")
             exit()
 
         self.cameraType = _cameraType
@@ -1058,7 +1058,8 @@ if len(sceneInfo) == 0:
                 cv2.destroyWindow("scene frame")
                 break
             continue
-        sceneInfo = [sceneCenter[0], sceneCenter[1], sceneRadius, sceneAngle, 0]
+        else:
+            sceneInfo = [sceneCenter[0], sceneCenter[1], sceneRadius, sceneAngle, 0]
         print("created: [" + ",".join([str(s) for s in sceneInfo]) + "]")
 
     selectChanged = True
@@ -1072,7 +1073,7 @@ if sceneType == "circle":
     selectSceneMask = cv2.circle(selectSceneMask, sceneCenter, sceneRadius, (0, 255, 0), 2)
     selectSceneMask = CircleSelect.draw_arrow(selectSceneMask, sceneCenter, sceneRadius, sceneAngle, (0, 255, 0), 2)
 elif sceneType == "rect":
-    selectSceneMask = cv2.rectangle(selectSceneMask, (sceneInfo[0], sceneInfo[1]), (sceneInfo[2], sceneInfo[3]), (0, 255, 0), 2)
+    selectSceneMask = cv2.rectangle(selectSceneMask, (int(sceneInfo[0]), int(sceneInfo[1])), (int(sceneInfo[2]), int(sceneInfo[3])), (0, 255, 0), 2)
 drawSelectArea(selectMask, selectAreas)
 PreBoolMask = ~(selectMask.any(axis=-1))
 selectMask[PreBoolMask] = selectSceneMask[PreBoolMask]
@@ -1195,7 +1196,7 @@ while CameraType != "basler" or (multiThread or camera.IsGrabbing()):
                                             unityFixedUscaledTimeOffset = time.process_time() - createdTime - temptime
                                             lastReceiveUnityTime = temptime
                                             for i in range(10):
-                                                CInstance.WriteContent("scene:" + f"{sceneCenter[0]};{sceneCenter[1]};{sceneRadius:.2f};{sceneAngle:.2f};{len(selectAreas)}")
+                                                CInstance.WriteContent("scene:" + f"{";".join([str(s) for s in sceneInfo])};{len(selectAreas)}")
                                                 time.sleep(0.01)
                                             sync = True
                                             syncInd = 0
