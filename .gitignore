@@ -20,3 +20,5 @@ wheels/
 /ultralytics-8.2.95
 /YoloTrainData
 *.7z
+/logs
+/outputVideo
