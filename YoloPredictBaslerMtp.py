@@ -38,14 +38,14 @@ parser.add_argument('-f', '--fps', type=int, default=50, help='')
 parser.add_argument('-r', '--rec', action="store_true", help='record video file')
 parser.add_argument('-m', '--multiThread', action="store_true", help='enable multi thread for camera grab and predict')
 parser.add_argument('-i', '--ignoreKeyboard', action="store_true", help='ignore keyboard event')
-parser.add_argument('-d', '--detectMethod', type=str, help='yolo or blob')
+parser.add_argument('-d', '--detectMethod', default="yolo", type=str, help='yolo or blob')
 args = parser.parse_args()
 useargs = args.useargs
 #endregion ------------------------------------------------argparse end------------------------------
 
 # region ------------------------------------------------meta Info-------------------------------------------
 CameraTypes = ["basler", "common", "video"]
-CameraType = "video"                                             if not useargs else args.camera
+CameraType = "basler"                                             if not useargs else args.camera
 videoPath = "01_17_1842outputraw.mp4"
 modelNmae = "models/TopViewDifferentiateLickSpout.pt"
 # modelNmae = "models/TopViewMiniscopeBodyBestWithAddition.engine"
@@ -69,8 +69,8 @@ ignoreKeyboardEvent = False                                      if not useargs 
 # finalResolution = (resolution[0], resolution[1]) if not recordOnlyMouse else (recordOnlyMouseResolution[0], recordOnlyMouseResolution[1])
 
 recordMissframe = False
-videoSaveFolder = r"E:\pythonFiles\YoloV8\outputVideo"
-missedFrameSaveFolder = r"E:\pythonFiles\YoloV8\missedFrames"
+videoSaveFolder = "./outputVideo"
+missedFrameSaveFolder = "./missedFrames"
 multiThread = True                                              if not useargs else args.multiThread 
 Task: Literal['detect', 'track'] = 'detect'
 detectMethod: Literal['yolo', 'blob'] = 'yolo'                  if not useargs else args.detectMethod
@@ -102,7 +102,7 @@ if not os.path.exists(videoSaveFolder):
     os.mkdir(videoSaveFolder)
 
 # logging配置
-log_folder = r"E:\pythonFiles\YoloV8\logs"
+log_folder = os.path.join(os.getcwd(), "logs")
 if not os.path.exists(log_folder):
     os.mkdir(log_folder)
 log_file = os.path.join(log_folder, datetime.datetime.now().strftime("%m_%d_%H%M") + ".log")
@@ -651,12 +651,16 @@ if multiThread:
                 frame, _ind = task_queue.get()
                 result = model.Predict(frame, task=Task)
                 result_queue.put((result, _ind))
-    else:
+    elif detectMethod == 'blob':
         def Predict():
             while True:
                 frame, _ind = task_queue.get()
                 result = BlobPredict(frame)
                 result_queue.put((result, _ind))
+    else:
+        print("invalid detectMethod")
+        logging.error("invalid detectMethod")
+        quit()
 else:
     def Predict(frame:np.ndarray):
         if detectMethod == 'yolo':
@@ -1497,6 +1501,7 @@ if performanceAnalysis:
     profiler.print()
 
 if selectChanged and PyWinMessageBox.YesOrNo("save current Info?", "save & load") == 'YES':
+    f_selectionSaveTxt = open(selectionSaveTxtName, 'r+' if os.path.exists(selectionSaveTxtName) else 'w+', encoding='utf-8')
     f_selectionSaveTxt.seek(0, 0)
     f_selectionSaveTxt.truncate(0)
     f_selectionSaveTxt.write("scene:"+";".join([str(i) for i in sceneInfo]) + "\n")
