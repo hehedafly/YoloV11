@@ -47,7 +47,7 @@ useargs = args.useargs
 CameraTypes = ["basler", "common", "video"]
 CameraType = "basler"                                             if not useargs else args.camera
 videoPath = "01_17_1842outputraw.mp4"
-modelNmae = "models/TopViewDifferentiateLickSpout.pt"
+modelName = "models/TopViewDifferentiateLickSpout.pt"
 # modelNmae = "models/TopViewMiniscopeBodyBestWithAddition.engine"
 confidenceCoefficient = 0.7
 CCare:bool = True                                                    if not useargs else args.ccare
@@ -90,6 +90,12 @@ FontThick = 2
 costTime = 0
 useCuda = torch.cuda.is_available()
 device = "cuda:0" if useCuda else "cpu"
+
+if(not os.path.isfile(modelName)):
+    print(f"model file not found:{modelName}")
+    logging.error(f"model file not found:{modelName}")
+    exit()
+
 if not useCuda:
     logging.warning("Cuda not available, using cpu")
 performanceAnalysis = False
@@ -637,7 +643,7 @@ def BlobPredict(frame:np.ndarray):
 
 try:
     if detectMethod == 'yolo':
-        model = Model(modelNmae)
+        model = Model(modelName)
     else:
         model = None
 except Exception as e:
