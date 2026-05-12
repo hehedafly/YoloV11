@@ -39,13 +39,14 @@ parser.add_argument('-r', '--rec', action="store_true", help='record video file'
 parser.add_argument('-m', '--multiThread', action="store_true", help='enable multi thread for camera grab and predict')
 parser.add_argument('-i', '--ignoreKeyboard', action="store_true", help='ignore keyboard event')
 parser.add_argument('-d', '--detectMethod', default="yolo", type=str, help='yolo or blob')
+parser.add_argument('--heartbeat', action="store_true", help='enable heartbeat')
 args = parser.parse_args()
 useargs = args.useargs
 #endregion ------------------------------------------------argparse end------------------------------
 
 # region ------------------------------------------------meta Info-------------------------------------------
 CameraTypes = ["basler", "common", "video"]
-CameraType = "basler"                                             if not useargs else args.camera
+CameraType = "video"                                             if not useargs else args.camera
 videoPath = "01_17_1842outputraw.mp4"
 modelName = "models/TopViewDifferentiateLickSpout.pt"
 # modelNmae = "models/TopViewMiniscopeBodyBestWithAddition.engine"
@@ -75,6 +76,7 @@ multiThread = True                                              if not useargs e
 Task: Literal['detect', 'track'] = 'detect'
 detectMethod: Literal['yolo', 'blob'] = 'yolo'                  if not useargs else args.detectMethod
 blobDetector = None
+heartbeat = True                                               if not useargs else args.heartbeat
 frame_rate_divider = 1  # 设置帧率除数
 missed_frame_rate_divider = 10
 frame_count = 0  # 初始化帧计数器
@@ -91,6 +93,20 @@ costTime = 0
 useCuda = torch.cuda.is_available()
 device = "cuda:0" if useCuda else "cpu"
 
+# logging配置
+log_folder = os.path.join(os.getcwd(), "logs")
+if not os.path.exists(log_folder):
+    os.mkdir(log_folder)
+log_file = os.path.join(log_folder, "pythonLog" + datetime.datetime.now().strftime("%m_%d_%H%M") + ".log")
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(log_file, encoding='utf-8'),
+        logging.StreamHandler()
+    ]
+)
+
 if(not os.path.isfile(modelName)):
     print(f"model file not found:{modelName}")
     logging.error(f"model file not found:{modelName}")
@@ -106,20 +122,6 @@ message_receive_queue = queue.Queue()
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 if not os.path.exists(videoSaveFolder):
     os.mkdir(videoSaveFolder)
-
-# logging配置
-log_folder = os.path.join(os.getcwd(), "logs")
-if not os.path.exists(log_folder):
-    os.mkdir(log_folder)
-log_file = os.path.join(log_folder, datetime.datetime.now().strftime("%m_%d_%H%M") + ".log")
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler(log_file, encoding='utf-8'),
-        logging.StreamHandler()
-    ]
-)
 
 processingcConnectRetryTime = 0
 
@@ -168,11 +170,11 @@ def BaslerSyncEnable(_enable:bool = True):
             _camera = camera
 
         if _enable:
-            _camera.LineSource.Value = "ExposureActive"
+            _camera.LineSource.Value = "ExposureActive" # type: ignore
             print("basler set to ExposureActive")
             logging.info("basler set to ExposureActive")
         else:
-            _camera.LineSource.Value = "UserOutput2"
+            _camera.LineSource.Value = "UserOutput2" # pyright: ignore[reportOptionalMemberAccess, reportAttributeAccessIssue]
             _camera.UserOutputSelector.Value = "UserOutput2"
             _camera.UserOutputValue.Value = True
     if _enable and grabber is not None:
@@ -222,12 +224,17 @@ else:
     posRecFile = None
 defineCircle = CircleSelect.DefineCircle()
 
+careThreadStop = threading.Event()
+
 def CareMessageReceive():
     event = threading.Event()
-    while True:
+    while not careThreadStop.is_set():
         event.wait(0.02)
-        for msg in CInstance.ReadToStr(CInstance.careindex):
-            message_receive_queue.put(msg)
+        try:
+            for msg in CInstance.ReadToStr(CInstance.careindex):
+                message_receive_queue.put(msg)
+        except NameError:
+            break
 
 class FrameGrabber(threading.Thread):
     def __init__(self, _cameraType, fps=50):
@@ -649,6 +656,7 @@ try:
 except Exception as e:
     print(f"failed to load model:{e}")
     logging.error(f"failed to load model:{e}")
+    quit()
 
 if multiThread:
     if detectMethod == 'yolo':
@@ -1082,7 +1090,7 @@ if multiThread:
     threading.Thread(target=Predict, daemon=True).start()
 
 def Quit():
-    if multiThread:
+    if multiThread and grabber is not None:
         grabber.stop()
     quit()
 
@@ -1165,14 +1173,35 @@ cv2.setMouseCallback("frame", simulateMousePosUpdate)
 ProcessStartTime = time.time()
 
 if CType == "unity":
-    CInstance = IPCTest.SharedMemoryObj('UnityShareMemoryTest', "server", "UnityProject" if CCare else "", 32+5*16*1024)#~80KB
-else:
+    try:
+        CInstance = IPCTest.SharedMemoryObj('UnityShareMemoryTest', "client", "UnityProject" if CCare else "", 32+5*16*1024)
+        if CInstance.shm is not None:
+            print("UnityShareMemoryTest already exist")
+            logging.info("UnityShareMemoryTest already exist")
+            Quit()
+        else:
+            print("create UnityShareMemoryTest")
+            CInstance = IPCTest.SharedMemoryObj('UnityShareMemoryTest', "server", "UnityProject" if CCare else "", 32+5*16*1024, heartbeat)#~80KB
+    finally:
+        if CInstance.shm is None:
+            print("create UnityShareMemoryTest failed")
+            logging.error("create UnityShareMemoryTest failed")
+            Quit()
+        
+elif CType == "processing":
     CInstance = ProcessingCommunicate(CPort)
+else:
+    CInstance = None
+    print("unknown communication type")
+    logging.error("unknown communication type")
+    Quit()
 if not CInstance.InitBuffer():
     Quit()
 
-if CCare:
-    threading.Thread(target=CareMessageReceive, daemon = True).start()
+careThread = None
+if CCare and CInstance is not None:
+    careThread = threading.Thread(target=CareMessageReceive, daemon = True)
+    careThread.start()
 
 if performanceAnalysis:
     profiler = Profiler()
@@ -1185,9 +1214,12 @@ if detectMethod == 'blob':
 fps:float = 0
 hideAltInterval = 1
 hideAltTime = -1
-quitAfterClientOffline = False
+quitNow:bool = False
+quitAfterClientOffline:bool = False
 
 while CameraType != "basler" or (multiThread or camera.IsGrabbing()):
+    if quitNow:
+        break
     ret, frame, frameInd = TrygetFrame(1/FPS)
     if not ret:
         print("frame stream stoped")
@@ -1227,6 +1259,8 @@ while CameraType != "basler" or (multiThread or camera.IsGrabbing()):
                         logging.info("quit command received")
                         # Quit()
                         quitAfterClientOffline = True
+                    elif message[4:] == "forcequit":
+                        quitNow = True
             if CInstance.careindex == -1:
                 CInstance.CheckApplies()
             else:
@@ -1318,7 +1352,7 @@ while CameraType != "basler" or (multiThread or camera.IsGrabbing()):
                 VideoClear()
 
             if quitAfterClientOffline:
-                Quit()
+                quitNow = True
 
         else:#sync = true
             readMsg = CInstance.ReadToStr(CInstance.careindex)
@@ -1425,12 +1459,12 @@ while CameraType != "basler" or (multiThread or camera.IsGrabbing()):
         # posRecFile.flush()
 
 
-    if (frame_count + 1) % 60 == 0:
+    if (frame_count + 1) % FPS == 0:
         costTime = time.time() - startTime
         # print(str(60/costTime)+"fps")
         startTime = time.time()
         if costTime > 0:
-            fps = 60/costTime
+            fps = FPS/costTime
             CInstance.UpdateOnlineStatus()#作为server不需要检查返回值
 
             if posRecFile is not None:
@@ -1483,7 +1517,20 @@ while CameraType != "basler" or (multiThread or camera.IsGrabbing()):
                         CInstance.WriteContent("select:" + ";".join(map(str, item_list)))
 
             elif keyboard.is_pressed("shift+space"):
-                cv2.waitKey()
+                paused = 0
+                while keyboard.is_pressed("shift+space"):
+                    continue
+                while paused >= 0:
+                    cv2.waitKey(10)
+                    if keyboard.is_pressed("shift+space"):
+                        paused = -9999
+                        while keyboard.is_pressed("shift+space"):
+                            continue
+                    else:
+                        if paused % 100 == 0:
+                            CInstance.UpdateOnlineStatus()
+                            paused = 0
+                        paused += 1
             elif keyboard.is_pressed("shift+m"):
                 simulate = not simulate
                 print("simulate " + ("on" if simulate else "off"))
@@ -1539,4 +1586,7 @@ if recordResult and outRaw != None:
     print("video stream released")
     logging.info("video stream released")
 cv2.destroyAllWindows()
+if CCare and careThread is not None:
+    careThreadStop.set()
+    careThread.join(timeout=1)
 del CInstance

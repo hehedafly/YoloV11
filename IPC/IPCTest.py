@@ -104,8 +104,9 @@ class SharedMemoryObj:
         self.unwrittenMsg = []
         self.heartbeat = heartbeat
 
-        shm_buffer[0:32] = bytearray([0] * 32)
-        shm_buffer[32:] = bytearray([0xFF] * len(shm_buffer[32:]))
+        if self.name == "server":
+            shm_buffer[0:32] = bytearray([0] * 32)
+            shm_buffer[32:] = bytearray([0xFF] * len(shm_buffer[32:]))
 
     
     def __del__(self):
@@ -114,11 +115,12 @@ class SharedMemoryObj:
                 self.shm.buf[0] = 0
                 self.shm.close()
                 self.shm.unlink()
+                print("server offline")
             else:#应添加server检查care部分
                 self.shm.buf[3 + self.UID] = bytearray([0] * len(self.shm.buf[3 + self.UID]))
                 self.shm.buf[2] = self.shm.buf[2] - 1
                 self.shm.close()
-        print("server offline")
+                print("client "+str(self.UID)+" offline")
         
     def InitBuffer(self) -> bool:
         if self.shm == None:
@@ -176,6 +178,8 @@ class SharedMemoryObj:
     
     def UpdateOnlineStatus(self) -> int:
         global shm_buffer
+
+        shm_buffer[2] = len([cs for cs in list(shm_buffer[3:3+self.maxClientNum]) if cs > 0])
         if not self.heartbeat:
             return 1
 
@@ -216,13 +220,22 @@ class SharedMemoryObj:
 
                         # Handle client timeout
                         if self.clientOfflineTick[i] >= self.maxOfflineTick:
-                            shm_buffer[2] = (shm_buffer[2] - 1) % 256  # Ensure byte wrap
+                            shm_buffer[2] = max(0, shm_buffer[2] - 1)  # Ensure byte wrap
                             shm_buffer[client_idx] = 0
                             self.clientOfflineTick[i] = 0
                             print("client "+str(i+1)+" offline")
+                            if self.careindex == i + 1:
+                                self.careindex = -1
             return 1
     
-    def WriteClear(self, clearPos = 0, esayclear = False):#clearPos: 0: all, 1-messages: count of latest messages shall be saved 
+    def WriteClear(self, clearPos = 0, esayclear = False):#clearPos: 0: all, 1-messages: count of latest messages shall be saved
+        # 操作自身写缓冲区(self.writeBufferStartPos):
+        #   偏移 [0]     写标志位(writing=0/finished=1), 读写均由自身
+        #   偏移 [1+2*i] 他人i的读标记(2B), i∈[0,maxClientNum], i跳过自身, 由他人写入
+        #   偏移 [9:11]  写标记=已写入消息总数(2B), 由自身维护
+        #   偏移 [11:13] 最新消息在缓冲区内的起始偏移(2B), 相对writeBufferStartPos
+        #   偏移 [13:15] 最新消息在缓冲区内的结束偏移(2B), 相对writeBufferStartPos, 结束偏移包含0xFFFF分隔标记
+        #   偏移 [15:]   消息数据区, 每条消息=[长度2B + 内容 + 0xFFFF分隔]
         global shm_buffer
 
         shm_buffer[self.writeBufferStartPos] = 0 #写开始
@@ -262,6 +275,10 @@ class SharedMemoryObj:
 
 
     def WriteContent(self, _string:str, clear = False, waitEvenIfFilled = False) -> bool:
+        # 操作自身写缓冲区(self.writeBufferStartPos), 布局同WriteClear所述
+        #   self.writtenMark: 已写消息计数(内存值), 与缓冲区[9:11]同步
+        #   self.newMessageStartPos/EndPos: 最新消息起止偏移(内存值), 与缓冲区[11:15]同步
+        #   self.messageStartPosLs: 所有消息起始偏移列表, 用于WriteClear时回溯未读消息
         global shm_buffer
         if len(_string):
             if clear or self.newMessageEndPos + len(_string) + 2 - self.writeBufferStartPos > self.writebufferLength:
@@ -299,6 +316,15 @@ class SharedMemoryObj:
             
 
     def Read(self, readId, readMethod = "new") -> list[bytes]:
+        # 读取目标(readId)的写缓冲区(self.writeBufferStartPosAll[readId]), 布局同WriteClear所述
+        #   readId: 0=server, 1~maxClientNum=client, readPos=self.writeBufferStartPosAll[readId]=目标缓冲区基址
+        #   writePos: 本实例在目标缓冲区读标记数组中的槽位索引, =self.UID(当UID<readId时) 否则=UID-1
+        #             (目标缓冲区预留4个他人读标记位, 一个参与者不需要给自身留槽位, 故索引需跳过自身)
+        #   偏移 [0]             => 写标志位, 由目标写入, readable=1表示目标处于可读状态
+        #   偏移 [1+2*writePos]  => 本实例的读标记(2B), 记录已读消息数, 由本实例写入
+        #   偏移 [9:11]          => 目标的写标记(2B), 由目标写入
+        #   偏移 [13:15]         => 目标最新消息结束偏移(2B)
+        #   偏移 [15:endPos]     => 消息数据, endPos = readPos + [13:15]的值
         global shm_buffer
         
         if self.CheckOnlineClientsCount() == 0:
@@ -306,12 +332,6 @@ class SharedMemoryObj:
         if readId < 0 or readId > self.maxClientNum:
             return []
         
-        # for i in range(self.CheckOnlineClients()):
-        #     tempId = i
-        #     while tempId == self.index or shm_buffer[3 + i - 1] == 0:#server 一定在线, i = 0时，对客户端，server shm_buffer[3 + i<0> - 1] = max client number != 0，对server tempId = self.index
-        #         tempId += 1
-        #     if tempId <= self.maxClientNum:
-        #         readPos = self.writeBufferStartPosAll[tempId]
         readPos = self.writeBufferStartPosAll[readId]
         readable = shm_buffer[readPos]
         writePos = self.UID if self.UID < readId else self.UID - 1
@@ -320,6 +340,9 @@ class SharedMemoryObj:
             writemark = BytesToInt(shm_buffer[readPos + 9 : readPos + 11].tobytes())
             if writemark >= self.writebufferLength / 4:
                 print("wrong write mark read")
+                shm_buffer[readPos + 9 : readPos + 11] = IntToBytes(0)
+                shm_buffer[readPos + 11 : readPos + 15] = bytearray([0] * 4)
+                shm_buffer[readPos + 1 + writePos * 2 : readPos + 1 + writePos * 2 + 2] = IntToBytes(0)
                 return []
             if writemark != 0 and readmark > writemark:
                 readmark = 0
